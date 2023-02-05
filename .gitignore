@@ -37,6 +37,6 @@ next-env.d.ts
 
 # editor
 .idea
-.code
+.vscode
 
 design-system

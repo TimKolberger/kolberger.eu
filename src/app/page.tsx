@@ -1,4 +1,3 @@
-import type { NextPage } from 'next'
 import { panda } from '@/design-system/jsx'
 import { Layout } from '../feature/layout/Layout'
 import { Page } from '../feature/layout/Page'
@@ -7,7 +6,7 @@ import { FaMastodon } from 'react-icons/fa'
 import { FiMail, FiTwitter } from 'react-icons/fi'
 import { css } from '@/design-system/css'
 
-const HomePage: NextPage = () => (
+const HomePage = () => (
   <Layout>
     <Page>
       <panda.section

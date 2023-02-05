@@ -1,11 +1,10 @@
-import type { NextPage } from 'next'
 import { panda } from '@/design-system/jsx'
 import { Layout } from '../../feature/layout/Layout'
 import { Page } from '../../feature/layout/Page'
 import { Link } from '../../feature/layout/Link'
 import { MyJourney } from '../../feature/timeline/MyJourney'
 
-const MyJourneyPage: NextPage = () => (
+const MyJourneyPage = () => (
   <Layout>
     <Page css={{ gap: '12' }}>
       <header>
