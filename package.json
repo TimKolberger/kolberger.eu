@@ -5,7 +5,9 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "lint": "next lint",
+    "lint": "concurrently ",
+    "lint:eslint": "next lint",
+    "lint:types": "tsc --noEmit",
     "prepare": "panda gen",
     "start": "next start"
   },
