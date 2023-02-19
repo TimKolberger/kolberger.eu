@@ -7,7 +7,7 @@ specifiers:
   '@types/blueimp-md5': 2.18.0
   '@types/node': 18.11.18
   '@types/react': 18.0.28
-  '@types/react-dom': 18.0.9
+  '@types/react-dom': 18.0.11
   blueimp-md5: 2.19.0
   concurrently: 7.6.0
   css-panda: 0.0.0-dev-20230129072951
@@ -36,9 +36,9 @@ devDependencies:
   '@types/blueimp-md5': 2.18.0
   '@types/node': 18.11.18
   '@types/react': 18.0.28
-  '@types/react-dom': 18.0.9
+  '@types/react-dom': 18.0.11
   concurrently: 7.6.0
-  css-panda: 0.0.0-dev-20230129072951_pqprhw4sntnbm4e553j3p23sfq
+  css-panda: 0.0.0-dev-20230129072951_rkzkpxhoqrrugol7eixatay7du
   eslint: 8.33.0
   eslint-config-next: 13.1.6_4vsywjlpuriuw3tl5oq6zy5a64
   prettier: 2.8.3
@@ -110,7 +110,7 @@ packages:
       prismjs: 1.29.0
     dev: true
 
-  /@astrojs/react/2.0.1_6t6l2j3hvewuzy7y3rwj6a3wzq:
+  /@astrojs/react/2.0.1_3xleytyzprlgycb2ded54tx72i:
     resolution: {integrity: sha512-EhpYg6afa3ks0ofc1mBcdbQvcQMt3mn5/O2K98lvg9LbTaYRfSvwnzfgVlc0boSaQYFrzssoeOtCUhNVUb1krg==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -122,7 +122,7 @@ packages:
       '@babel/core': 7.20.12
       '@babel/plugin-transform-react-jsx': 7.20.13_@babel+core@7.20.12
       '@types/react': 18.0.28
-      '@types/react-dom': 18.0.9
+      '@types/react-dom': 18.0.11
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     transitivePeerDependencies:
@@ -1325,8 +1325,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.0.9:
-    resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
+  /@types/react-dom/18.0.11:
+    resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
       '@types/react': 18.0.28
     dev: true
@@ -1957,11 +1957,11 @@ packages:
       which: 2.0.2
     dev: true
 
-  /css-panda/0.0.0-dev-20230129072951_pqprhw4sntnbm4e553j3p23sfq:
+  /css-panda/0.0.0-dev-20230129072951_rkzkpxhoqrrugol7eixatay7du:
     resolution: {integrity: sha512-0PxZAH6VSC86uuB/+9UuY8B0bGRvN+YL8jV0XSbYHah90tJ++pR239u3PnmAbG05KSs0/LjkMtZ43/AkwJVI3A==}
     hasBin: true
     dependencies:
-      '@astrojs/react': 2.0.1_6t6l2j3hvewuzy7y3rwj6a3wzq
+      '@astrojs/react': 2.0.1_3xleytyzprlgycb2ded54tx72i
       '@pandacss/config': 0.0.0-dev-20230129072951
       '@pandacss/error': 0.0.0-dev-20230129072951
       '@pandacss/logger': 0.0.0-dev-20230129072951
