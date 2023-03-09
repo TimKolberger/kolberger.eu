@@ -5,7 +5,7 @@ specifiers:
   '@fontsource/open-sans': 4.5.14
   '@polymorphic-factory/react': 0.3.0
   '@types/blueimp-md5': 2.18.0
-  '@types/node': 18.14.6
+  '@types/node': 18.15.0
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   blueimp-md5: 2.19.0
@@ -34,11 +34,11 @@ dependencies:
 
 devDependencies:
   '@types/blueimp-md5': 2.18.0
-  '@types/node': 18.14.6
+  '@types/node': 18.15.0
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   concurrently: 7.6.0
-  css-panda: 0.0.0-dev-20230212180407_mqoao4zthhx2754ce5jvupsv6a
+  css-panda: 0.0.0-dev-20230212180407_nsaaf2hxm3ylusxmxu3rjy5nri
   eslint: 8.35.0
   eslint-config-next: 13.2.3_ycpbpc6yetojsgtrx3mwntkhsu
   prettier: 2.8.4
@@ -86,7 +86,7 @@ packages:
       astro: ^2.0.2
     dependencies:
       '@astrojs/prism': 2.0.0
-      astro: 2.0.2_@types+node@18.14.6
+      astro: 2.0.2_@types+node@18.15.0
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.1
       rehype-raw: 6.1.1
@@ -1290,8 +1290,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node/18.14.6:
-    resolution: {integrity: sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==}
+  /@types/node/18.15.0:
+    resolution: {integrity: sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==}
     dev: true
 
   /@types/parse5/6.0.3:
@@ -1544,7 +1544,7 @@ packages:
     resolution: {integrity: sha512-eBvWn1lvIApYMhzQMsu9ciLfkBY499mFZlNqG+/9WR7PVlroQw0vG30cOQQbaKz3sCEc44TAOu2ykzqXSNnwag==}
     dev: true
 
-  /astro/2.0.2_@types+node@18.14.6:
+  /astro/2.0.2_@types+node@18.15.0:
     resolution: {integrity: sha512-47N1jLWNxSri7kWfIfgcEnQJZWTvd0gXhNC3P2ZHiiurl4nOxFC5ULsW5MDDTjTzQ1S7y1RoaL9XxYm+Rury7w==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
@@ -1597,7 +1597,7 @@ packages:
       typescript: 4.9.5
       unist-util-visit: 4.1.2
       vfile: 5.3.6
-      vite: 4.0.4_@types+node@18.14.6
+      vite: 4.0.4_@types+node@18.15.0
       vitefu: 0.2.4_vite@4.0.4
       yargs-parser: 21.1.1
       zod: 3.20.2
@@ -1934,7 +1934,7 @@ packages:
       which: 2.0.2
     dev: true
 
-  /css-panda/0.0.0-dev-20230212180407_mqoao4zthhx2754ce5jvupsv6a:
+  /css-panda/0.0.0-dev-20230212180407_nsaaf2hxm3ylusxmxu3rjy5nri:
     resolution: {integrity: sha512-Ybpc7BmUEjQstA9bLglGpPmoqoI76Qd2ylmpBk0rcEfnlynirss+hU0Um45D+3ep3KQNCiIzMMudnkcorDVTtA==}
     hasBin: true
     dependencies:
@@ -1946,11 +1946,11 @@ packages:
       '@pandacss/shared': 0.0.0-dev-20230212180407
       '@pandacss/token-dictionary': 0.0.0-dev-20230212180407
       '@pandacss/types': 0.0.0-dev-20230212180407
-      astro: 2.0.2_@types+node@18.14.6
+      astro: 2.0.2_@types+node@18.15.0
       cac: 6.7.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      vite: 4.0.4_@types+node@18.14.6
+      vite: 4.0.4_@types+node@18.15.0
     transitivePeerDependencies:
       - '@types/node'
       - '@types/react'
@@ -5306,7 +5306,7 @@ packages:
       vfile-message: 3.1.3
     dev: true
 
-  /vite/4.0.4_@types+node@18.14.6:
+  /vite/4.0.4_@types+node@18.15.0:
     resolution: {integrity: sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -5331,7 +5331,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.14.6
+      '@types/node': 18.15.0
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
@@ -5348,7 +5348,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.0.4_@types+node@18.14.6
+      vite: 4.0.4_@types+node@18.15.0
     dev: true
 
   /vscode-css-languageservice/6.2.3:
