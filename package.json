@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "pnpm lint && pnpm gen:css && next build",
+    "build": "pnpm lint && next build",
     "dev": "next dev",
     "gen:css": "panda gen",
     "lint": "concurrently pnpm:lint:*",
