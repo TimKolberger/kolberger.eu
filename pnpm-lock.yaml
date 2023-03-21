@@ -14,7 +14,7 @@ specifiers:
   eslint: 8.36.0
   eslint-config-next: 13.2.4
   next: 13.2.4
-  prettier: 2.8.5
+  prettier: 2.8.6
   react: 18.2.0
   react-dom: 18.2.0
   react-icons: 4.8.0
@@ -39,7 +39,7 @@ devDependencies:
   css-panda: 0.0.0-dev-20230212180407_a2qh6jmtwqndbwa4txpyemiepa
   eslint: 8.36.0
   eslint-config-next: 13.2.4_j4766f7ecgqbon3u7zlxn5zszu
-  prettier: 2.8.5
+  prettier: 2.8.6
   typescript: 5.0.2
 
 packages:
@@ -66,7 +66,7 @@ packages:
     dependencies:
       '@vscode/emmet-helper': 2.8.6
       events: 3.3.0
-      prettier: 2.8.5
+      prettier: 2.8.6
       prettier-plugin-astro: 0.7.2
       source-map: 0.7.4
       vscode-css-languageservice: 6.2.3
@@ -4417,13 +4417,13 @@ packages:
     engines: {node: ^14.15.0 || >=16.0.0, pnpm: '>=7.14.0'}
     dependencies:
       '@astrojs/compiler': 0.31.4
-      prettier: 2.8.5
+      prettier: 2.8.6
       sass-formatter: 0.7.5
       synckit: 0.8.5
     dev: true
 
-  /prettier/2.8.5:
-    resolution: {integrity: sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==}
+  /prettier/2.8.6:
+    resolution: {integrity: sha512-mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
