@@ -6,7 +6,7 @@ specifiers:
   '@polymorphic-factory/react': 0.3.0
   '@types/blueimp-md5': 2.18.0
   '@types/node': 18.15.7
-  '@types/react': 18.0.28
+  '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
   blueimp-md5: 2.19.0
   concurrently: 7.6.0
@@ -33,10 +33,10 @@ dependencies:
 devDependencies:
   '@types/blueimp-md5': 2.18.0
   '@types/node': 18.15.7
-  '@types/react': 18.0.28
+  '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
   concurrently: 7.6.0
-  css-panda: 0.0.0-dev-20230212180407_7wlw7gigqw7y72adqxhmocm4fq
+  css-panda: 0.0.0-dev-20230212180407_nxdgwlttfau4t7nuhzp4h3rtmm
   eslint: 8.36.0
   eslint-config-next: 13.2.4_j4766f7ecgqbon3u7zlxn5zszu
   prettier: 2.8.7
@@ -108,7 +108,7 @@ packages:
       prismjs: 1.29.0
     dev: true
 
-  /@astrojs/react/2.0.1_3xleytyzprlgycb2ded54tx72i:
+  /@astrojs/react/2.0.1_dgjuf3aqqre24bd27wvsbnxpoe:
     resolution: {integrity: sha512-EhpYg6afa3ks0ofc1mBcdbQvcQMt3mn5/O2K98lvg9LbTaYRfSvwnzfgVlc0boSaQYFrzssoeOtCUhNVUb1krg==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -119,7 +119,7 @@ packages:
     dependencies:
       '@babel/core': 7.20.12
       '@babel/plugin-transform-react-jsx': 7.20.13_@babel+core@7.20.12
-      '@types/react': 18.0.28
+      '@types/react': 18.0.29
       '@types/react-dom': 18.0.11
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -1305,11 +1305,11 @@ packages:
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
-      '@types/react': 18.0.28
+      '@types/react': 18.0.29
     dev: true
 
-  /@types/react/18.0.28:
-    resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
+  /@types/react/18.0.29:
+    resolution: {integrity: sha512-wXHktgUABxplw1+UnljseDq4+uztQyp2tlWZRIxHlpchsCFqiYkvaDS8JR7eKOQm8wziTH/el5qL7D6gYNkYcw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -1934,11 +1934,11 @@ packages:
       which: 2.0.2
     dev: true
 
-  /css-panda/0.0.0-dev-20230212180407_7wlw7gigqw7y72adqxhmocm4fq:
+  /css-panda/0.0.0-dev-20230212180407_nxdgwlttfau4t7nuhzp4h3rtmm:
     resolution: {integrity: sha512-Ybpc7BmUEjQstA9bLglGpPmoqoI76Qd2ylmpBk0rcEfnlynirss+hU0Um45D+3ep3KQNCiIzMMudnkcorDVTtA==}
     hasBin: true
     dependencies:
-      '@astrojs/react': 2.0.1_3xleytyzprlgycb2ded54tx72i
+      '@astrojs/react': 2.0.1_dgjuf3aqqre24bd27wvsbnxpoe
       '@pandacss/config': 0.0.0-dev-20230212180407
       '@pandacss/error': 0.0.0-dev-20230212180407
       '@pandacss/logger': 0.0.0-dev-20230212180407
