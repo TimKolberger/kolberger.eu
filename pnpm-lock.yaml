@@ -8,8 +8,8 @@ dependencies:
     specifier: 4.5.14
     version: 4.5.14
   '@polymorphic-factory/react':
-    specifier: 0.3.0
-    version: 0.3.0(react@18.2.0)
+    specifier: 0.4.1
+    version: 0.4.1(react@18.2.0)
   blueimp-md5:
     specifier: 2.19.0
     version: 2.19.0
@@ -1178,8 +1178,8 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@polymorphic-factory/react@0.3.0(react@18.2.0):
-    resolution: {integrity: sha512-MMJNVV1yVqVBuOcAZhEyZgcWcMhN8Dwp+mg9dtakjiPVma+BQgIV/3GpErA9TXB9W5q4D2CalT42LGe6ta6Suw==}
+  /@polymorphic-factory/react@0.4.1(react@18.2.0):
+    resolution: {integrity: sha512-GQMmzGARKDLmj3DYAS1lSiQNfUbqIGInAmOMpJwbbwm3MWUPfg+3UE8jQmeORaiXUjoO0sagHdwtf2lx1XCyhA==}
     peerDependencies:
       react: '>=16.8 || >=17 || >18'
     dependencies:
