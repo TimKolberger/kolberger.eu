@@ -31,7 +31,7 @@
     "css-panda": "0.0.0-dev-20230212180407",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
-    "prettier": "2.8.7",
+    "prettier": "2.8.8",
     "typescript": "5.0.4"
   }
 }
