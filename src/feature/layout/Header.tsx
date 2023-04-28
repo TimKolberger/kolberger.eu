@@ -1,26 +1,21 @@
+import type { ComponentPropsWithoutRef } from 'react'
 import * as React from 'react'
-import { Container, HTMLPandaProps, panda } from '@/design-system/jsx'
 import { Link } from './Link'
 import { Gravatar } from '../Gravatar'
 
-export type HeaderProps = HTMLPandaProps<'header'>
+export type HeaderProps = ComponentPropsWithoutRef<'header'>
 
 export const Header = ({ className, ...props }: HeaderProps) => {
   return (
-    <panda.header {...props}>
-      <Container py="5" display="flex" alignItems="center" gap="3">
-        <Link textStyle="lg" href="/">
+    <header {...props}>
+      <div className="max-w-8xl mx-auto flex items-center gap-3 px-4 py-10 md:px-6">
+        <Link href="/">
           <Gravatar email="tim@kolberger.eu" />
         </Link>
-        <panda.div
-          flex="1"
-          display="flex"
-          alignItems="center"
-          justifyContent="flex-end"
-        >
+        <div className="flex flex-1 items-center justify-end">
           <Link href="/my-journey">My journey</Link>
-        </panda.div>
-      </Container>
-    </panda.header>
+        </div>
+      </div>
+    </header>
   )
 }

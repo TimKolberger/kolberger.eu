@@ -1,6 +1,5 @@
 import * as React from 'react'
 import md5 from 'blueimp-md5'
-import { css } from '@/design-system/css'
 import Image from 'next/image'
 
 export interface GravatarProps
@@ -20,14 +19,7 @@ export const Gravatar = ({ email, ...restProps }: GravatarProps) => {
       alt={email}
       width={40}
       height={40}
-      className={css({
-        width: '10',
-        height: '10',
-        borderRadius: '9999px',
-        borderColor: 'text.subtle',
-        borderWidth: '2px',
-        shadow: 'sm',
-      })}
+      className="rounded-full border-2 border-gray-200 shadow-sm"
       {...restProps}
     />
   )

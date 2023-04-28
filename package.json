@@ -5,18 +5,16 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "gen:css": "panda gen",
     "lint": "concurrently pnpm:lint:*",
     "lint:eslint": "next lint",
     "lint:types": "tsc --noEmit",
-    "prepare": "pnpm gen:css",
     "start": "next start"
   },
   "dependencies": {
     "@fontsource/comfortaa": "4.5.11",
     "@fontsource/open-sans": "4.5.14",
-    "@polymorphic-factory/react": "0.4.1",
     "blueimp-md5": "2.19.0",
+    "classnames": "2.3.2",
     "next": "13.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -27,11 +25,14 @@
     "@types/node": "18.16.2",
     "@types/react": "18.0.32",
     "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.14",
     "concurrently": "8.0.1",
-    "css-panda": "0.0.0-dev-20230212180407",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "postcss": "8.4.23",
     "prettier": "2.8.8",
+    "prettier-plugin-tailwindcss": "^0.2.8",
+    "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
   }
 }

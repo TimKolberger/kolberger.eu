@@ -1,19 +1,18 @@
+import type { ComponentPropsWithoutRef } from 'react'
 import * as React from 'react'
-import { HTMLPandaProps, panda } from '@/design-system/jsx'
-import { container } from '@/design-system/patterns'
-import { cx } from '@/design-system/css'
+import cx from 'classnames'
 
-export type PageProps = HTMLPandaProps<'main'>
+export type PageProps = ComponentPropsWithoutRef<'main'>
 
-export const Page = ({ className, ...props }: PageProps) => (
-  <panda.main
-    className={cx(container({}), className)}
-    display="flex"
-    flexDirection="column"
-    w="full"
-    maxWidth="4xl"
-    flex="1 0 0"
-    mx="auto"
-    {...props}
-  />
-)
+export const Page = (props: PageProps) => {
+  const { className, ...rest } = props
+  return (
+    <main
+      className={cx(
+        'align-stretch mx-auto flex w-full max-w-4xl flex-1 flex-col px-4',
+        className
+      )}
+      {...rest}
+    />
+  )
+}
