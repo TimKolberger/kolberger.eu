@@ -1,10 +1,10 @@
 'use client'
-import { HTMLPandaProps, panda } from '@/design-system/jsx'
-import { forwardRef } from 'react'
-import NextLink, { LinkProps as NextLinkProps } from 'next/link'
+import cx from 'classnames'
+import { type ComponentPropsWithoutRef, forwardRef } from 'react'
+import NextLink, { type LinkProps as NextLinkProps } from 'next/link'
 import { usePathname } from 'next/navigation'
 
-export type LinkProps = HTMLPandaProps<'a'> & NextLinkProps
+export type LinkProps = ComponentPropsWithoutRef<'a'> & NextLinkProps
 
 export const Link = forwardRef<HTMLAnchorElement, LinkProps>(function Link(
   props,
@@ -15,29 +15,19 @@ export const Link = forwardRef<HTMLAnchorElement, LinkProps>(function Link(
     ? { target: '_blank', rel: 'noopener' }
     : {}
 
+  const isCurrent = pathname === props.href
   return (
     <NextLink href={props.href} passHref legacyBehavior>
-      <panda.a
+      <a
         ref={ref}
         {...props}
         {...externalLinkProps}
-        aria-current={pathname === props.href ? 'page' : undefined}
-        css={{
-          color: 'text.inverted',
-          transitionProperty: 'base',
-          transitionDuration: '100',
-          transitionTimingFunction: 'ease-out',
-          cursor: 'pointer',
-          textDecoration: 'none',
-          outline: 'none',
-          _focusVisible: {
-            boxShadow: 'outline',
-          },
-          _currentPage: {
-            textDecoration: 'underline',
-          },
-          ...props.css,
-        }}
+        aria-current={isCurrent ? 'page' : undefined}
+        className={cx(
+          'cursor-pointer focus:outline-none focus-visible:underline',
+          isCurrent ? 'underline' : 'no-underline',
+          props.className
+        )}
       />
     </NextLink>
   )

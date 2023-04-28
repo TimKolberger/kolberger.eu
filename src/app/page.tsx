@@ -1,55 +1,38 @@
-import { panda } from '@/design-system/jsx'
 import { Layout } from '../feature/layout/Layout'
 import { Page } from '../feature/layout/Page'
 import { Link } from '../feature/layout/Link'
 import { FaMastodon } from 'react-icons/fa'
 import { FiMail, FiTwitter } from 'react-icons/fi'
-import { css } from '@/design-system/css'
 
 const HomePage = () => (
   <Layout>
     <Page>
-      <panda.section
-        display="flex"
-        flexDirection="column"
-        justifyContent="center"
-        gap="3"
-        py={{ base: '8', md: '20', lg: '32' }}
-        flex="1 1 61.8vh"
-      >
-        <panda.h2
-          textStyle={{ base: '5xl', lg: '7xl' }}
-          fontFamily="heading"
-          fontWeight="bold"
-        >
+      <section className="flex flex-1 basis-[61.8vh] flex-col justify-center gap-3 py-8 md:py-20 lg:py-32">
+        <h2 className="font-heading text-5xl font-bold md:text-7xl">
           Tim Kolberger
-        </panda.h2>
-        <panda.p textStyle={{ base: '2xl', lg: '3xl' }} fontFamily="heading">
+        </h2>
+        <p className="font-heading  text-2xl text-gray-200">
           Maintainer & DevOps Engineer
-        </panda.p>
-        <panda.p textStyle={{ base: 'lg', lg: 'xl' }} pt="4" maxW="60ch">
+        </p>
+        <p className=" max-w-60ch mx-auto pt-4">
           Working on design systems and component libraries to make the web
           accessible and delightful for everyone.
-        </panda.p>
-        <panda.footer display="flex" flexWrap="wrap" gap="6" mt="4">
+        </p>
+        <footer className="mt-4 flex flex-wrap gap-6">
           <Link href="https://twitter.com/TimKolberger">
-            <FiTwitter
-              className={css({ display: 'inline-block', mr: '1ch' })}
-            />
+            <FiTwitter className="mr-2 inline-block" />
             Twitter
           </Link>
           <Link href="https://elk.zone/techhub.social/@hakunamatim">
-            <FaMastodon
-              className={css({ display: 'inline-block', mr: '1ch' })}
-            />
+            <FaMastodon className="mr-2 inline-block" />
             Mastodon
           </Link>
           <Link href="mailto:hello@kolberger.eu">
-            <FiMail className={css({ display: 'inline-block', mr: '1ch' })} />
+            <FiMail className="mr-2 inline-block" />
             E-mail
           </Link>
-        </panda.footer>
-      </panda.section>
+        </footer>
+      </section>
     </Page>
   </Layout>
 )

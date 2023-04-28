@@ -1,4 +1,3 @@
-import { panda } from '@/design-system/jsx'
 import { Layout } from '../../feature/layout/Layout'
 import { Page } from '../../feature/layout/Page'
 import { Link } from '../../feature/layout/Link'
@@ -6,42 +5,30 @@ import { MyJourney } from '../../feature/timeline/MyJourney'
 
 const MyJourneyPage = () => (
   <Layout>
-    <Page css={{ gap: '12' }}>
+    <Page className="gap-12">
       <header>
-        <panda.h2
-          textStyle={{ base: '5xl', lg: '7xl' }}
-          fontFamily="heading"
-          fontWeight="bold"
-        >
+        <h2 className="font-heading text-5xl font-bold md:text-7xl">
           My journey
-        </panda.h2>
+        </h2>
       </header>
 
-      <panda.div
-        textStyle={{ base: 'lg', lg: 'xl' }}
-        display="flex"
-        flexDirection="column"
-        gap="2"
-        maxW="60ch"
-        mx="auto"
-      >
-        <panda.p>
+      <div className="max-w-60ch mx-auto flex flex-col gap-2">
+        <p>
           After graduating in Computer Science in 2018, I continued learning at
-          an agency startup and now are working for the digital partner of
-          Deutsche Bahn. I am helping to ensure that the trains are more
-          punctual - eventually.
-        </panda.p>
-        <panda.p>
+          an agency startup and currently are working for the digital partner of
+          Deutsche Bahn.
+        </p>
+        <p>
           When I started working on design systems and component libraries, I
-          got into OpenSource and joined the{' '}
-          <Link href="https://chakra-ui.com">Chakra UI</Link> core team where we
-          work on the next generation of frontend tools.
-        </panda.p>
-      </panda.div>
+          got into Open Source and joined the{' '}
+          <Link href="https://chakra-ui.com">Chakra UI</Link> core team where I
+          learned a ton and got to work with some amazing and smart people.
+        </p>
+      </div>
 
-      <panda.div maxW="60ch" mx="auto">
+      <div className="max-w-60ch mx-auto">
         <MyJourney />
-      </panda.div>
+      </div>
     </Page>
   </Layout>
 )

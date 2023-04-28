@@ -1,6 +1,6 @@
 import { Timeline, TimelineEvent } from './Timeline'
-import { panda } from '@/design-system/jsx'
 import { Link } from '../layout/Link'
+import type { ReactNode } from 'react'
 
 const data: JourneyStepProps[] = [
   {
@@ -22,7 +22,7 @@ const data: JourneyStepProps[] = [
     ),
   },
   {
-    timeline: { from: '2020', to: 'now' },
+    timeline: { from: '2020', to: '2023' },
     company: {
       name: 'Chakra UI',
       url: 'https://chakra-ui.com/',
@@ -30,10 +30,10 @@ const data: JourneyStepProps[] = [
     role: 'Core Maintainer',
     description: (
       <>
-        As a core maintainer, I contribute to the development of{' '}
-        <Link href="https://chakra-ui.com">Chakra UI</Link> and help to maintain
-        the project. I am mostly involved in the styled system package and
-        contributed some TypeScript gymnastics.
+        As a core maintainer, I contributed to the development of{' '}
+        <Link href="https://chakra-ui.com">Chakra UI</Link> and helped to
+        maintain the project. I was mostly involved in the styled system package
+        and contributed to a great TypeScript experience.
       </>
     ),
   },
@@ -87,8 +87,8 @@ const data: JourneyStepProps[] = [
 type JourneyStepProps = {
   timeline: { from: string; to: string }
   company: { name: string; url?: string }
-  role: React.ReactNode
-  description: React.ReactNode
+  role: ReactNode
+  description: ReactNode
 }
 
 const JourneyStep = ({
@@ -98,44 +98,25 @@ const JourneyStep = ({
   description,
 }: JourneyStepProps) => {
   const company = url ? (
-    <Link
-      href={url}
-      css={{
-        display: 'block',
-        textStyle: 'sm',
-        color: 'text.subtle',
-      }}
-    >
+    <Link href={url} className="block text-sm text-gray-400">
       {name}
     </Link>
   ) : (
-    <panda.span
-      css={{
-        display: 'block',
-        textStyle: 'sm',
-        color: 'text.subtle',
-      }}
-    >
-      {name}
-    </panda.span>
+    <span className="block text-sm text-gray-400">{name}</span>
   )
 
   return (
-    <panda.article display="flex" flexDirection="column" gap="2">
-      <header>
-        <panda.span
-          textStyle="xs"
-          color="text.subtle"
-          borderColor="text.subtle"
-        >
+    <article className="flex flex-col gap-2">
+      <header className="text-sm text-gray-300">
+        <span className="block text-xs text-gray-400">
           <time dateTime={from}>{from}</time> to {to}
-        </panda.span>
+        </span>
         {company}
-        <panda.p>{role}</panda.p>
+        <p>{role}</p>
       </header>
 
-      <panda.p color="text.subtle">{description}</panda.p>
-    </panda.article>
+      <p className="text-sm text-gray-400">{description}</p>
+    </article>
   )
 }
 export const MyJourney = () => (

@@ -18,11 +18,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "paths": {
-      "@/design-system/*": [
-        "./design-system/*"
-      ]
-    },
+    "verbatimModuleSyntax": true,
     "plugins": [
       {
         "name": "next"

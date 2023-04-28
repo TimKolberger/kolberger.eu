@@ -1,6 +1,6 @@
 import type { PropsWithChildren } from 'react'
 import React from 'react'
-import '../../styles/index.css'
+import '../../styles/globals.css'
 
 const RootLayout = (props: PropsWithChildren) => (
   <html lang="en">
