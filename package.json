@@ -15,7 +15,7 @@
     "@fontsource/open-sans": "5.0.1",
     "blueimp-md5": "2.19.0",
     "classnames": "2.3.2",
-    "next": "13.4.3",
+    "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "4.8.0"
@@ -28,7 +28,7 @@
     "autoprefixer": "10.4.14",
     "concurrently": "8.0.1",
     "eslint": "8.41.0",
-    "eslint-config-next": "13.4.3",
+    "eslint-config-next": "13.4.4",
     "postcss": "8.4.23",
     "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
