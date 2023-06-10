@@ -9,8 +9,8 @@ dependencies:
     specifier: 5.0.3
     version: 5.0.3
   '@fontsource/open-sans':
-    specifier: 5.0.2
-    version: 5.0.2
+    specifier: 5.0.3
+    version: 5.0.3
   blueimp-md5:
     specifier: 2.19.0
     version: 2.19.0
@@ -126,8 +126,8 @@ packages:
     resolution: {integrity: sha512-WZkEukBS1J3KyXGfZiHCloc6M8trCMTxShlr7ABfmTDX/S7+LigRYKXSboWd1rSkVraUpeenLu/V5IcgbYQRQw==}
     dev: false
 
-  /@fontsource/open-sans@5.0.2:
-    resolution: {integrity: sha512-iR4bQD0aEztyCQ0WWzlcte0al6YeNOg0qvvy+NMIMx72Hes+OV+lerL2eJHxaBB7dviNYwP3igz180K4Dts1Cg==}
+  /@fontsource/open-sans@5.0.3:
+    resolution: {integrity: sha512-L86qrEfW7IWSGojCtiPpw2/M6qKjxDG+EV4k1xMVFCkhh6Z6gyZwevqCt0yOvd1BmjrtUAIAfSzFTjBn3DeZJw==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.10:
