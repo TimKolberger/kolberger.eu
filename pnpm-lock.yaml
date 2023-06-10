@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@fontsource/comfortaa':
-    specifier: 5.0.2
-    version: 5.0.2
+    specifier: 5.0.3
+    version: 5.0.3
   '@fontsource/open-sans':
     specifier: 5.0.2
     version: 5.0.2
@@ -122,8 +122,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/comfortaa@5.0.2:
-    resolution: {integrity: sha512-xov46IQBgs3RAksXcJRFwgeFLWXzvNSMHL1DpKoYfiUcfy0amymNeSWaHYLGKH8mvOU+zASEnUtOmXDF71tM3g==}
+  /@fontsource/comfortaa@5.0.3:
+    resolution: {integrity: sha512-WZkEukBS1J3KyXGfZiHCloc6M8trCMTxShlr7ABfmTDX/S7+LigRYKXSboWd1rSkVraUpeenLu/V5IcgbYQRQw==}
     dev: false
 
   /@fontsource/open-sans@5.0.2:
