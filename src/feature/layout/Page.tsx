@@ -10,7 +10,7 @@ export const Page = (props: PageProps) => {
     <main
       className={cx(
         'align-stretch mx-auto flex w-full max-w-4xl flex-1 flex-col px-4',
-        className
+        className,
       )}
       {...rest}
     />

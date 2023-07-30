@@ -10,7 +10,7 @@ export interface GravatarProps
 export const Gravatar = ({ email, ...restProps }: GravatarProps) => {
   const gravatarUrl = React.useMemo(
     () => `https://www.gravatar.com/avatar/${md5(email)}`,
-    [email]
+    [email],
   )
 
   return (

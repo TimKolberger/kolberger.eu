@@ -12,7 +12,7 @@ export const TimelineEvent = ({ children }: { children?: ReactNode }) => (
       'pl-[calc(var(--bubble-size)+var(--padding-left))]',
       'py-[var(--padding-y)]',
       'after:absolute after:left-0 after:top-[calc(var(--bubble-size)+var(--offset-y))] after:block after:h-[calc(100%-(var(--bubble-size)/2))] after:w-[var(--line-width)] after:translate-x-[calc((var(--bubble-size)/2)-50%)] after:bg-gray-50 after:bg-opacity-20 after:last-of-type:hidden',
-      'before:absolute before:left-0 before:top-[var(--offset-y)] before:block before:h-[var(--bubble-size)] before:w-[var(--bubble-size)] before:rounded-full before:border before:border-solid before:border-transparent before:bg-gray-50'
+      'before:absolute before:left-0 before:top-[var(--offset-y)] before:block before:h-[var(--bubble-size)] before:w-[var(--bubble-size)] before:rounded-full before:border before:border-solid before:border-transparent before:bg-gray-50',
     )}
     style={
       {
