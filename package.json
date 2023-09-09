@@ -13,8 +13,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@fontsource/comfortaa": "5.0.11",
-    "@fontsource/open-sans": "5.0.11",
+    "@fontsource/comfortaa": "5.0.12",
+    "@fontsource/open-sans": "5.0.12",
     "blueimp-md5": "2.19.0",
     "classnames": "2.3.2",
     "next": "13.4.19",
