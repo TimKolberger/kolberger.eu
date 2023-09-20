@@ -1,8 +1,8 @@
 import { Layout } from '../feature/layout/Layout'
 import { Page } from '../feature/layout/Page'
 import { Link } from '../feature/layout/Link'
-import { FaMastodon } from 'react-icons/fa'
-import { FiMail, FiTwitter } from 'react-icons/fi'
+import { FiMail } from 'react-icons/fi'
+import { FaXTwitter } from 'react-icons/fa6'
 
 const HomePage = () => (
   <Layout>
@@ -20,12 +20,8 @@ const HomePage = () => (
         </p>
         <footer className="mt-4 flex flex-wrap gap-6">
           <Link href="https://twitter.com/TimKolberger">
-            <FiTwitter className="mr-2 inline-block" />
-            Twitter
-          </Link>
-          <Link href="https://elk.zone/techhub.social/@hakunamatim">
-            <FaMastodon className="mr-2 inline-block" />
-            Mastodon
+            <FaXTwitter className="mr-2 inline-block" />
+            <span className="sr-only">X formerly Twitter</span>
           </Link>
           <Link href="mailto:hello@kolberger.eu">
             <FiMail className="mr-2 inline-block" />
