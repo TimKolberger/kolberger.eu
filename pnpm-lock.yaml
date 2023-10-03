@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@fontsource/comfortaa':
-    specifier: 5.0.13
-    version: 5.0.13
+    specifier: 5.0.14
+    version: 5.0.14
   '@fontsource/open-sans':
-    specifier: 5.0.13
-    version: 5.0.13
+    specifier: 5.0.14
+    version: 5.0.14
   blueimp-md5:
     specifier: 2.19.0
     version: 2.19.0
@@ -127,12 +127,12 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/comfortaa@5.0.13:
-    resolution: {integrity: sha512-Nzja/RPKd8sQDWIqEymjOV3Aguw8XmtEoRF3ABSwLtJaV0mUNcWBVCfImI5kdrOrBmYMezw/btbJYtBZPor97A==}
+  /@fontsource/comfortaa@5.0.14:
+    resolution: {integrity: sha512-1xGW5AWbK1Ljh8XmJk+y4SJ8q6WpH2U88yD/u9CGI1MtgbXc8gt8BxkQZM6aI5x+pc8Ezuy0NzYjB1GIUvAkRw==}
     dev: false
 
-  /@fontsource/open-sans@5.0.13:
-    resolution: {integrity: sha512-5TlV1anTObxv9ZncvloyyUPYk1pLcjZ47zoMfRvumc6LCoslFyWT3S1L9ispMZCe2hNtYA/cQQy7aQm8NHEfsw==}
+  /@fontsource/open-sans@5.0.14:
+    resolution: {integrity: sha512-r9dEDCrZsBfjd2WREzffY1j7Y5gbyfOU1ybChTXjKdOCRAtTVpxO1ZJ5UyVkotXGSIWNt2hedlfyshWSQ6p5kQ==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.11:
