@@ -24,6 +24,7 @@ const MyJourneyPage = () => (
           <Link href="https://chakra-ui.com">Chakra UI</Link> core team where I
           learned a ton and got to work with some amazing and smart people.
         </p>
+        <p>Tüdelü</p>
       </div>
 
       <div className="max-w-60ch mx-auto">
