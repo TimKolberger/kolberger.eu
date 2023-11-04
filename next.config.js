@@ -4,9 +4,8 @@ const nextConfig = {
   experimental: {
     externalDir: true,
   },
-  swcMinify: true,
   images: {
-    domains: ['www.gravatar.com'],
+    remotePatterns: [{ hostname: 'www.gravatar.com' }],
   },
 }
 
