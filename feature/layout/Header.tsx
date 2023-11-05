@@ -1,9 +1,8 @@
-import type { ComponentPropsWithoutRef } from 'react'
-import * as React from 'react'
-import { Link } from './Link'
-import { Gravatar } from '../Gravatar'
+import type { ComponentPropsWithoutRef } from "react";
+import { Link } from "./Link";
+import { Gravatar } from "../Gravatar";
 
-export type HeaderProps = ComponentPropsWithoutRef<'header'>
+export type HeaderProps = ComponentPropsWithoutRef<"header">;
 
 export const Header = ({ className, ...props }: HeaderProps) => {
   return (
@@ -17,5 +16,5 @@ export const Header = ({ className, ...props }: HeaderProps) => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};

@@ -1,5 +1,5 @@
-@import '@fontsource/comfortaa';
-@import '@fontsource/open-sans';
+@import "../node_modules/@fontsource/comfortaa";
+@import "../node_modules/@fontsource/open-sans";
 
 @tailwind base;
 @tailwind components;
@@ -18,9 +18,6 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     scroll-padding-top: 6rem;
-  }
-
-  body {
     @apply bg-gradient-to-br from-gray-900 via-gray-900 via-5% to-green-900 font-body text-gray-50;
   }
 

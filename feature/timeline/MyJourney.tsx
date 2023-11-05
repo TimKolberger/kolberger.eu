@@ -1,20 +1,20 @@
-import { Timeline, TimelineEvent } from './Timeline'
-import { Link } from '../layout/Link'
-import type { ReactNode } from 'react'
+import { Timeline, TimelineEvent } from "./Timeline";
+import { Link } from "../layout/Link";
+import type { ReactNode } from "react";
 
 const data: JourneyStepProps[] = [
   {
-    timeline: { from: '2021', to: 'now' },
+    timeline: { from: "2021", to: "now" },
     company: {
-      name: 'DB Systel GmbH',
-      url: 'https://www.dbsystel.de/dbsystel',
+      name: "DB Systel GmbH",
+      url: "https://www.dbsystel.de/dbsystel",
     },
-    role: 'Maintainer',
+    role: "Maintainer",
     description: (
       <>
         As maintainer I develop libraries, templates and documentations in the
         frontend area for 10 product teams, which implement in-house
-        applications for{' '}
+        applications for{" "}
         <Link href="https://www.deutschebahn.com/de">Deutsche Bahn</Link>. This
         includes the deployment and further development of a design system,
         authentication libraries and DevOps tooling.
@@ -22,15 +22,15 @@ const data: JourneyStepProps[] = [
     ),
   },
   {
-    timeline: { from: '2020', to: '2023' },
+    timeline: { from: "2020", to: "2023" },
     company: {
-      name: 'Chakra UI',
-      url: 'https://chakra-ui.com/',
+      name: "Chakra UI",
+      url: "https://chakra-ui.com/",
     },
-    role: 'Core Maintainer',
+    role: "Core Maintainer",
     description: (
       <>
-        As a core maintainer, I contributed to the development of{' '}
+        As a core maintainer, I contributed to the development of{" "}
         <Link href="https://chakra-ui.com">Chakra UI</Link> and helped to
         maintain the project. I was mostly involved in the styled system package
         and contributed to a great TypeScript experience.
@@ -38,12 +38,12 @@ const data: JourneyStepProps[] = [
     ),
   },
   {
-    timeline: { from: '2020', to: '2021' },
+    timeline: { from: "2020", to: "2021" },
     company: {
-      name: 'DB Systel GmbH',
-      url: 'https://www.dbsystel.de/dbsystel',
+      name: "DB Systel GmbH",
+      url: "https://www.dbsystel.de/dbsystel",
     },
-    role: 'DevOps Engineer',
+    role: "DevOps Engineer",
     description: (
       <>
         As a DevOps Engineer, I developed two frontend applications for DB
@@ -53,11 +53,11 @@ const data: JourneyStepProps[] = [
     ),
   },
   {
-    timeline: { from: '2018', to: '2020' },
+    timeline: { from: "2018", to: "2020" },
     company: {
-      name: 'Incloud Engineering GmbH',
+      name: "Incloud Engineering GmbH",
     },
-    role: 'Senior Software Engineer and Teamlead',
+    role: "Senior Software Engineer and Teamlead",
     description: (
       <>
         My responsibilities were in new and further development of proprietary
@@ -67,11 +67,11 @@ const data: JourneyStepProps[] = [
     ),
   },
   {
-    timeline: { from: '2016', to: '2018' },
+    timeline: { from: "2016", to: "2018" },
     company: {
-      name: 'Incloud Engineering GmbH',
+      name: "Incloud Engineering GmbH",
     },
-    role: 'Web developer as Working Student',
+    role: "Web developer as Working Student",
     description: (
       <>
         In the agency business I got to know professional, individual software
@@ -82,14 +82,14 @@ const data: JourneyStepProps[] = [
       </>
     ),
   },
-]
+];
 
 type JourneyStepProps = {
-  timeline: { from: string; to: string }
-  company: { name: string; url?: string }
-  role: ReactNode
-  description: ReactNode
-}
+  timeline: { from: string; to: string };
+  company: { name: string; url?: string };
+  role: ReactNode;
+  description: ReactNode;
+};
 
 const JourneyStep = ({
   timeline: { from, to },
@@ -103,7 +103,7 @@ const JourneyStep = ({
     </Link>
   ) : (
     <span className="block text-sm text-gray-400">{name}</span>
-  )
+  );
 
   return (
     <article className="flex flex-col gap-2">
@@ -117,8 +117,8 @@ const JourneyStep = ({
 
       <p className="text-sm text-gray-400">{description}</p>
     </article>
-  )
-}
+  );
+};
 export const MyJourney = () => (
   <Timeline>
     {data.map((step, index) => (
@@ -127,4 +127,4 @@ export const MyJourney = () => (
       </TimelineEvent>
     ))}
   </Timeline>
-)
+);
