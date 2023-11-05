@@ -2,7 +2,14 @@ import { Layout } from "../../feature/layout/Layout";
 import { Page } from "../../feature/layout/Page";
 import { Link } from "../../feature/layout/Link";
 import { MyJourney } from "../../feature/timeline/MyJourney";
+import type { MetaFunction } from "@remix-run/node";
 
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Tim Kolberger" },
+    { name: "description", content: "Personal site of Tim Kolberger" },
+  ];
+};
 const MyJourneyPage = () => (
   <Layout>
     <Page className="gap-12">

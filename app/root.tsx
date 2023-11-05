@@ -18,10 +18,7 @@ export default function App() {
   return (
     <html lang="en">
       <head>
-        <title>Tim Kolberger</title>
-
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Personal site of Tim Kolberger" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

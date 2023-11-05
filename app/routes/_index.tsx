@@ -6,8 +6,8 @@ import { IconMail, IconXTwitter } from "../../feature/icons/icons";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Tim Kolberger" },
+    { name: "description", content: "Personal site of Tim Kolberger" },
   ];
 };
 
