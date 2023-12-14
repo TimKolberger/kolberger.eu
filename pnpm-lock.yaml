@@ -42,7 +42,7 @@ dependencies:
 devDependencies:
   '@remix-run/dev':
     specifier: 2.4.0
-    version: 2.4.0(@remix-run/serve@2.4.0)(typescript@5.3.3)(vite@5.0.8)
+    version: 2.4.0(@remix-run/serve@2.4.0)(typescript@5.3.3)(vite@5.0.9)
   '@remix-run/eslint-config':
     specifier: 2.4.0
     version: 2.4.0(eslint@8.55.0)(react@18.2.0)(typescript@5.3.3)
@@ -83,11 +83,11 @@ devDependencies:
     specifier: 5.3.3
     version: 5.3.3
   vite:
-    specifier: 5.0.8
-    version: 5.0.8
+    specifier: 5.0.9
+    version: 5.0.9
   vite-tsconfig-paths:
     specifier: 4.2.2
-    version: 4.2.2(typescript@5.3.3)(vite@5.0.8)
+    version: 4.2.2(typescript@5.3.3)(vite@5.0.9)
 
 packages:
 
@@ -1330,7 +1330,7 @@ packages:
     engines: {node: '>=18.0.0'}
     dev: false
 
-  /@remix-run/dev@2.4.0(@remix-run/serve@2.4.0)(typescript@5.3.3)(vite@5.0.8):
+  /@remix-run/dev@2.4.0(@remix-run/serve@2.4.0)(typescript@5.3.3)(vite@5.0.9):
     resolution: {integrity: sha512-qQsZv+uPw8IhAdUwIIaZqnJfgJXLahYuWHFQIcS7kBhr+PdwW6SA3gvmUhnkDrqV+HJdP1bUpwXYGT+vbDQGiQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -1401,7 +1401,7 @@ packages:
       tar-fs: 2.1.1
       tsconfig-paths: 4.2.0
       typescript: 5.3.3
-      vite: 5.0.8
+      vite: 5.0.9
       ws: 7.5.9
     transitivePeerDependencies:
       - '@types/node'
@@ -7021,7 +7021,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.2.2(typescript@5.3.3)(vite@5.0.8):
+  /vite-tsconfig-paths@4.2.2(typescript@5.3.3)(vite@5.0.9):
     resolution: {integrity: sha512-dq0FjyxHHDnp0uS3P12WEOX2W7NeuLzX9AWP38D7Zw2CTbFErapwQVlCiT5DMJcVWKQ1MMdTe92PZl/rBQ7qcw==}
     peerDependencies:
       vite: '*'
@@ -7032,7 +7032,7 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.2(typescript@5.3.3)
-      vite: 5.0.8
+      vite: 5.0.9
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -7073,8 +7073,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vite@5.0.8:
-    resolution: {integrity: sha512-jYMALd8aeqR3yS9xlHd0OzQJndS9fH5ylVgWdB+pxTwxLKdO1pgC5Dlb398BUxpfaBxa4M9oT7j1g503Gaj5IQ==}
+  /vite@5.0.9:
+    resolution: {integrity: sha512-wVqMd5kp28QWGgfYPDfrj771VyHTJ4UDlCteLH7bJDGDEamaz5hV8IX6h1brSGgnnyf9lI2RnzXq/JmD0c2wwg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
