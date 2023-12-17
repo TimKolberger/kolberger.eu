@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@fontsource/comfortaa": "5.0.18",
-    "@fontsource/open-sans": "5.0.19",
+    "@fontsource/open-sans": "5.0.20",
     "@remix-run/css-bundle": "2.4.0",
     "@remix-run/node": "2.4.0",
     "@remix-run/react": "2.4.0",
