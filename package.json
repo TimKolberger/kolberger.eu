@@ -18,10 +18,10 @@
   "dependencies": {
     "@fontsource/comfortaa": "5.0.18",
     "@fontsource/open-sans": "5.0.20",
-    "@remix-run/css-bundle": "2.4.0",
-    "@remix-run/node": "2.4.0",
-    "@remix-run/react": "2.4.0",
-    "@remix-run/serve": "2.4.0",
+    "@remix-run/css-bundle": "2.4.1",
+    "@remix-run/node": "2.4.1",
+    "@remix-run/react": "2.4.1",
+    "@remix-run/serve": "2.4.1",
     "blueimp-md5": "2.19.0",
     "clsx": "2.0.0",
     "isbot": "3.7.1",
@@ -29,8 +29,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "2.4.0",
-    "@remix-run/eslint-config": "2.4.0",
+    "@remix-run/dev": "2.4.1",
+    "@remix-run/eslint-config": "2.4.1",
     "@types/blueimp-md5": "2.18.2",
     "@types/react": "18.2.45",
     "@types/react-dom": "18.2.18",
