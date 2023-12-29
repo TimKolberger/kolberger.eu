@@ -23,7 +23,7 @@
     "@remix-run/react": "2.4.1",
     "@remix-run/serve": "2.4.1",
     "blueimp-md5": "2.19.0",
-    "clsx": "2.0.0",
+    "clsx": "2.1.0",
     "isbot": "3.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
