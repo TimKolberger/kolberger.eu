@@ -12,7 +12,7 @@
     "lint:eslint": "eslint . --ext ts,tsx --max-warnings 0",
     "lint:format": "prettier --check .",
     "lint:types": "tsc --noEmit",
-    "start": "remix-serve ./build/index.js",
+    "start": "remix-serve ./build/server/index.js",
     "typecheck": "tsc"
   },
   "dependencies": {
