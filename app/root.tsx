@@ -35,7 +35,13 @@ export default function App() {
         <meta name="msapplication-TileColor" content="#2b5797" />
         <meta name="theme-color" content="#064e3b" />
         <link rel="icon" href="/favicon.ico" />
-
+        {import.meta.env.MODE === "production" && (
+          <script
+            async
+            src="https://umami.kolberger.eu/script.js"
+            data-website-id="1307ee0c-4bec-4f8d-97ad-5666fd420b8b"
+          />
+        )}
         <Meta />
         <Links />
       </head>
