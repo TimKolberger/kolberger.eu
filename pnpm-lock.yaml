@@ -9,8 +9,8 @@ dependencies:
     specifier: 5.0.18
     version: 5.0.18
   '@fontsource/open-sans':
-    specifier: 5.0.23
-    version: 5.0.23
+    specifier: 5.0.24
+    version: 5.0.24
   '@remix-run/node':
     specifier: 2.6.0
     version: 2.6.0(typescript@5.3.3)
@@ -957,8 +957,8 @@ packages:
     resolution: {integrity: sha512-0Goub97HAU4AsAZvR8x7C4uSmBqqkBBEf6m1wFzThZIy+dA6wyqUW8n7uKfElMPcc8ZemI5XMXslW5SdnNJa2Q==}
     dev: false
 
-  /@fontsource/open-sans@5.0.23:
-    resolution: {integrity: sha512-BTp23tnfuvoLVyb0pmybebmx/YEmq/VMSwTWPy9zMyNlRV63XDVuE1M/XCpcCy2mYbespx/Ky4NWrZkL3GGfig==}
+  /@fontsource/open-sans@5.0.24:
+    resolution: {integrity: sha512-bIF+87vxfOPTyvnBKS+rCPmz/m66um3zCk1UdPv8RGBgwu6MMxwED0jpcbvyFSkfy0ApcdjfkDSAhlFTm/pgiw==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
