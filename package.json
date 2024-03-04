@@ -16,8 +16,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@fontsource/comfortaa": "5.0.18",
-    "@fontsource/open-sans": "5.0.24",
+    "@fontsource/comfortaa": "5.0.19",
+    "@fontsource/open-sans": "5.0.25",
     "@remix-run/node": "2.6.0",
     "@remix-run/react": "2.6.0",
     "@remix-run/serve": "2.6.0",
