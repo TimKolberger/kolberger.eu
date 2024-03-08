@@ -28,12 +28,12 @@ export default function Index() {
           </p>
           <footer className="mt-4 flex flex-wrap gap-6">
             <Link href="https://twitter.com/TimKolberger">
-              <IconXTwitter className="mr-2 inline-block" />
+              <IconXTwitter className="me-2" />
               <span className="sr-only">X formerly Twitter</span>
             </Link>
             <Link href="mailto:hello@kolberger.eu">
-              <IconMail className="mr-2 inline-block" />
-              E-mail
+              <IconMail className="me-2" />
+              <span>E-mail</span>
             </Link>
           </footer>
         </section>

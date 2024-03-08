@@ -11,7 +11,7 @@ export const Header = ({ className, ...props }: HeaderProps) => {
         <Link href="/">
           <Gravatar email="tim@kolberger.eu" />
         </Link>
-        <div className="flex flex-1 items-center justify-end gap-2 ">
+        <div className="flex flex-1 items-center justify-end gap-6">
           <Link href="/garden">Garden</Link>
           <Link href="/my-journey">My journey</Link>
         </div>

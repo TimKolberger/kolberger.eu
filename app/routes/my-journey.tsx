@@ -6,7 +6,7 @@ import type { MetaFunction } from '@remix-run/node'
 
 export const meta: MetaFunction = () => {
   return [
-    { title: 'Tim Kolberger' },
+    { title: 'My journey | Tim Kolberger' },
     { name: 'description', content: 'Personal site of Tim Kolberger' },
   ]
 }
@@ -33,7 +33,7 @@ const MyJourneyPage = () => (
         </p>
       </div>
 
-      <div className="max-w-60ch mx-auto">
+      <div className="max-w-60ch mx-auto w-full">
         <MyJourney />
       </div>
     </Page>
