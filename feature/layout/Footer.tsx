@@ -1,6 +1,6 @@
-import type { ComponentPropsWithoutRef } from "react";
+import type { ComponentPropsWithoutRef } from 'react'
 
-export interface FooterProps extends ComponentPropsWithoutRef<"footer"> {}
+export interface FooterProps extends ComponentPropsWithoutRef<'footer'> {}
 
 export const Footer = ({ className, ...props }: FooterProps) => (
   <footer {...props}>
@@ -8,4 +8,4 @@ export const Footer = ({ className, ...props }: FooterProps) => (
       All rights reserved © Tim Kolberger {new Date().getFullYear()}
     </div>
   </footer>
-);
+)

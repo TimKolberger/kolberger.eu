@@ -1,15 +1,15 @@
-import { Layout } from "../../feature/layout/Layout";
-import { Page } from "../../feature/layout/Page";
-import { Link } from "../../feature/layout/Link";
-import { MyJourney } from "../../feature/timeline/MyJourney";
-import type { MetaFunction } from "@remix-run/node";
+import { Layout } from '../../feature/layout/Layout'
+import { Page } from '../../feature/layout/Page'
+import { Link } from '../../feature/layout/Link'
+import { MyJourney } from '../../feature/timeline/MyJourney'
+import type { MetaFunction } from '@remix-run/node'
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Tim Kolberger" },
-    { name: "description", content: "Personal site of Tim Kolberger" },
-  ];
-};
+    { title: 'Tim Kolberger' },
+    { name: 'description', content: 'Personal site of Tim Kolberger' },
+  ]
+}
 const MyJourneyPage = () => (
   <Layout>
     <Page className="gap-12">
@@ -27,7 +27,7 @@ const MyJourneyPage = () => (
         </p>
         <p>
           When I started working on design systems and component libraries, I
-          got into Open Source and joined the{" "}
+          got into Open Source and joined the{' '}
           <Link href="https://chakra-ui.com">Chakra UI</Link> core team where I
           learned a ton and got to work with some amazing and smart people.
         </p>
@@ -38,6 +38,6 @@ const MyJourneyPage = () => (
       </div>
     </Page>
   </Layout>
-);
+)
 
-export default MyJourneyPage;
+export default MyJourneyPage

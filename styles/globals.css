@@ -1,5 +1,5 @@
-@import "../node_modules/@fontsource/comfortaa";
-@import "../node_modules/@fontsource/open-sans";
+@import '../node_modules/@fontsource/comfortaa';
+@import '../node_modules/@fontsource/open-sans';
 
 @tailwind base;
 @tailwind components;

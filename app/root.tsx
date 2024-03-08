@@ -5,8 +5,8 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "@remix-run/react";
-import "../styles/globals.css";
+} from '@remix-run/react'
+import '../styles/globals.css'
 export default function App() {
   return (
     <html lang="en">
@@ -35,7 +35,7 @@ export default function App() {
         <meta name="msapplication-TileColor" content="#2b5797" />
         <meta name="theme-color" content="#064e3b" />
         <link rel="icon" href="/favicon.ico" />
-        {import.meta.env.MODE === "production" && (
+        {import.meta.env.MODE === 'production' && (
           <script
             async
             src="https://umami.kolberger.eu/script.js"
@@ -52,5 +52,5 @@ export default function App() {
         <LiveReload />
       </body>
     </html>
-  );
+  )
 }

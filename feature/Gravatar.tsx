@@ -1,16 +1,16 @@
-import * as React from "react";
-import md5 from "blueimp-md5";
+import * as React from 'react'
+import md5 from 'blueimp-md5'
 
 export interface GravatarProps
-  extends Partial<Omit<React.ComponentProps<"img">, "src">> {
-  email: string;
+  extends Partial<Omit<React.ComponentProps<'img'>, 'src'>> {
+  email: string
 }
 
 export const Gravatar = ({ email, ...restProps }: GravatarProps) => {
   const gravatarUrl = React.useMemo(
     () => `https://www.gravatar.com/avatar/${md5(email)}`,
-    [email]
-  );
+    [email],
+  )
 
   return (
     <img
@@ -21,5 +21,5 @@ export const Gravatar = ({ email, ...restProps }: GravatarProps) => {
       className="rounded-full border-2 border-gray-200 shadow-sm"
       {...restProps}
     />
-  );
-};
+  )
+}

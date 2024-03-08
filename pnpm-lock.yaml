@@ -73,6 +73,9 @@ devDependencies:
   eslint-plugin-react:
     specifier: 7.34.0
     version: 7.34.0(eslint@8.57.0)
+  prettier:
+    specifier: ^3.2.5
+    version: 3.2.5
   prettier-plugin-tailwindcss:
     specifier: 0.5.12
     version: 0.5.12(prettier@3.2.5)

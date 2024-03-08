@@ -1,15 +1,15 @@
-import type { MetaFunction } from "@remix-run/node";
-import { Page } from "../../feature/layout/Page";
-import { Link } from "../../feature/layout/Link";
-import { Layout } from "../../feature/layout/Layout";
-import { IconMail, IconXTwitter } from "../../feature/icons/icons";
+import type { MetaFunction } from '@remix-run/node'
+import { Page } from '../../feature/layout/Page'
+import { Link } from '../../feature/layout/Link'
+import { Layout } from '../../feature/layout/Layout'
+import { IconMail, IconXTwitter } from '../../feature/icons/icons'
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Tim Kolberger" },
-    { name: "description", content: "Personal site of Tim Kolberger" },
-  ];
-};
+    { title: 'Tim Kolberger' },
+    { name: 'description', content: 'Personal site of Tim Kolberger' },
+  ]
+}
 
 export default function Index() {
   return (
@@ -39,5 +39,5 @@ export default function Index() {
         </section>
       </Page>
     </Layout>
-  );
+  )
 }
