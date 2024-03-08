@@ -17,7 +17,7 @@ const data: JourneyStepProps[] = [
         applications for{" "}
         <Link href="https://www.deutschebahn.com/de">Deutsche Bahn</Link>. This
         includes the deployment and further development of a design system,
-        authentication libraries and DevOps tooling.
+        libraries and DevOps tooling.
       </>
     ),
   },
