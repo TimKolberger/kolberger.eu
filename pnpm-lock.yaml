@@ -9,8 +9,8 @@ dependencies:
     specifier: 5.0.19
     version: 5.0.19
   '@fontsource/open-sans':
-    specifier: 5.0.25
-    version: 5.0.25
+    specifier: 5.0.26
+    version: 5.0.26
   '@remix-run/node':
     specifier: 2.8.1
     version: 2.8.1(typescript@5.4.2)
@@ -881,8 +881,8 @@ packages:
     resolution: {integrity: sha512-3aphFEMpNdNbp1ZoPSy1K7BzXlexIYzsi7StpGw3E8Oj5mQn5TIekOZ/4vesNyIemiCdIPVwuQ78L9UldkoxUA==}
     dev: false
 
-  /@fontsource/open-sans@5.0.25:
-    resolution: {integrity: sha512-7drfN/MwZyF4syQQ09rKOxof7KhM8N5M5CTGSJzvm13Cl0Jr0oaxrpmVKlBspzfdo7j350PpdCczUpEx4G1uPg==}
+  /@fontsource/open-sans@5.0.26:
+    resolution: {integrity: sha512-rdLire4IvoNUeP03R37r341ezqfj/l0I8An4MYwakOoSdaHgFhZRSDVCBl/yjW6TX79P8mJbLzA2riAicQV7zw==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
@@ -1791,7 +1791,7 @@ packages:
       '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.24.0)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.5
       '@vanilla-extract/css': 1.14.1
-      esbuild: 0.17.6
+      esbuild: 0.19.12
       eval: 0.1.8
       find-up: 5.0.0
       javascript-stringify: 2.1.0
