@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@fontsource/comfortaa':
-        specifier: 5.0.19
-        version: 5.0.19
+        specifier: 5.0.20
+        version: 5.0.20
       '@fontsource/open-sans':
-        specifier: 5.0.27
-        version: 5.0.27
+        specifier: 5.0.28
+        version: 5.0.28
       '@remix-run/node':
         specifier: 2.8.1
         version: 2.8.1(typescript@5.4.5)
@@ -592,11 +592,11 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@fontsource/comfortaa@5.0.19':
-    resolution: {integrity: sha512-3aphFEMpNdNbp1ZoPSy1K7BzXlexIYzsi7StpGw3E8Oj5mQn5TIekOZ/4vesNyIemiCdIPVwuQ78L9UldkoxUA==}
+  '@fontsource/comfortaa@5.0.20':
+    resolution: {integrity: sha512-Sc6E4RQg0aLaLX5+5WjWdLIk6C4LEOm1tWcUhpUw6HhxVJ7l4Ev+m12pbj2M06IfwesaTeKBoLc93jDY6ZPJXg==}
 
-  '@fontsource/open-sans@5.0.27':
-    resolution: {integrity: sha512-tFTqx2TE9srmM3pMEHldw0lTglqhKwFX6PVDEL0OF9xNT0x5W9brsezFHhV/U36pQV9So7S0vo4yVpnLzBBQew==}
+  '@fontsource/open-sans@5.0.28':
+    resolution: {integrity: sha512-hBvJHY76pJT/JynGUB5EXWhnzjYfLdcMn655J5p1v9lTT9HdQSy+keq2KPVXO2Htlg998BBa3p6u/jlrZ6w0kg==}
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -4221,9 +4221,9 @@ snapshots:
 
   '@eslint/js@8.57.0': {}
 
-  '@fontsource/comfortaa@5.0.19': {}
+  '@fontsource/comfortaa@5.0.20': {}
 
-  '@fontsource/open-sans@5.0.27': {}
+  '@fontsource/open-sans@5.0.28': {}
 
   '@humanwhocodes/config-array@0.11.14':
     dependencies:
