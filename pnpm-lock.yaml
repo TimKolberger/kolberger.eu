@@ -25,7 +25,7 @@ importers:
         version: 2.8.1(typescript@5.4.5)
       '@vercel/remix':
         specifier: ^2.8.1
-        version: 2.8.1(@remix-run/dev@2.8.1(@remix-run/serve@2.8.1(typescript@5.4.5))(@types/node@20.12.7)(typescript@5.4.5)(vite@5.2.10(@types/node@20.12.7)))(@remix-run/node@2.8.1(typescript@5.4.5))(@remix-run/server-runtime@2.8.1(typescript@5.4.5))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 2.9.0(@remix-run/dev@2.8.1(@remix-run/serve@2.8.1(typescript@5.4.5))(@types/node@20.12.7)(typescript@5.4.5)(vite@5.2.10(@types/node@20.12.7)))(@remix-run/node@2.8.1(typescript@5.4.5))(@remix-run/server-runtime@2.8.1(typescript@5.4.5))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       blueimp-md5:
         specifier: 2.19.0
         version: 2.19.0
@@ -1048,13 +1048,13 @@ packages:
   '@vanilla-extract/private@1.0.4':
     resolution: {integrity: sha512-8FGD6AejeC/nXcblgNCM5rnZb9KXa4WNkR03HCWtdJBpANjTgjHEglNLFnhuvdQ78tC6afaxBPI+g7F2NX3tgg==}
 
-  '@vercel/remix@2.8.1':
-    resolution: {integrity: sha512-7UGVAxP5mJsJFcLp0ERr8whWfX3tK9gx9zu8TqHH3ICR2OixUYXXg2XLD0M7U9dUHH43aGYr5EVefKcYbuGX1Q==}
+  '@vercel/remix@2.9.0':
+    resolution: {integrity: sha512-p2//5S+Ar7/9cGkJv/BVae25ekmCl5rhwy1SC0AH96aQIHUG604ygE/SensmDELTcEz1ZAcpy96sdSYeACmtGA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      '@remix-run/dev': 2.8.1
-      '@remix-run/node': 2.8.1
-      '@remix-run/server-runtime': 2.8.1
+      '@remix-run/dev': 2.9.0
+      '@remix-run/node': 2.9.0
+      '@remix-run/server-runtime': 2.9.0
       react: '*'
       react-dom: '*'
 
@@ -4869,7 +4869,7 @@ snapshots:
 
   '@vanilla-extract/private@1.0.4': {}
 
-  '@vercel/remix@2.8.1(@remix-run/dev@2.8.1(@remix-run/serve@2.8.1(typescript@5.4.5))(@types/node@20.12.7)(typescript@5.4.5)(vite@5.2.10(@types/node@20.12.7)))(@remix-run/node@2.8.1(typescript@5.4.5))(@remix-run/server-runtime@2.8.1(typescript@5.4.5))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@vercel/remix@2.9.0(@remix-run/dev@2.8.1(@remix-run/serve@2.8.1(typescript@5.4.5))(@types/node@20.12.7)(typescript@5.4.5)(vite@5.2.10(@types/node@20.12.7)))(@remix-run/node@2.8.1(typescript@5.4.5))(@remix-run/server-runtime@2.8.1(typescript@5.4.5))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@remix-run/dev': 2.8.1(@remix-run/serve@2.8.1(typescript@5.4.5))(@types/node@20.12.7)(typescript@5.4.5)(vite@5.2.10(@types/node@20.12.7))
       '@remix-run/node': 2.8.1(typescript@5.4.5)
