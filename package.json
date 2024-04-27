@@ -47,8 +47,10 @@
     "vite": "5.2.10"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.0.0",
+    "pnpm": "<9"
   },
+  "packageManager": "pnpm@8.15.7",
   "prettier": {
     "semi": false,
     "singleQuote": true,
