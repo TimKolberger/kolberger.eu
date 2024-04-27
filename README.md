@@ -1,6 +1,7 @@
 # kolberger.eu
 
-This is the source code for my personal website, [kolberger.eu](https://kolberger.eu).
+This is the source code for my personal website,
+[kolberger.eu](https://kolberger.eu).
 
 ## Development
 
