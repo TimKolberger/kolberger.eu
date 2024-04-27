@@ -48,9 +48,9 @@
   },
   "engines": {
     "node": ">=18.0.0",
-    "pnpm": "<9"
+    "pnpm": "<10"
   },
-  "packageManager": "pnpm@8.15.7",
+  "packageManager": "pnpm@9.0.6",
   "prettier": {
     "semi": false,
     "singleQuote": true,
