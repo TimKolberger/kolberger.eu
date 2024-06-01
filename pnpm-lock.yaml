@@ -75,10 +75,10 @@ devDependencies:
     version: 7.34.2(eslint@8.57.0)
   prettier:
     specifier: ^3.2.5
-    version: 3.2.5
+    version: 3.3.0
   prettier-plugin-tailwindcss:
     specifier: 0.5.14
-    version: 0.5.14(prettier@3.2.5)
+    version: 0.5.14(prettier@3.3.0)
   tailwindcss:
     specifier: 3.4.3
     version: 3.4.3
@@ -1275,7 +1275,7 @@ packages:
       cookie: 0.6.0
       set-cookie-parser: 2.6.0
       source-map: 0.7.4
-      turbo-stream: 2.0.1
+      turbo-stream: 2.1.0
       typescript: 5.4.5
     dev: false
 
@@ -5335,7 +5335,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-tailwindcss@0.5.14(prettier@3.2.5):
+  /prettier-plugin-tailwindcss@0.5.14(prettier@3.3.0):
     resolution: {integrity: sha512-Puaz+wPUAhFp8Lo9HuciYKM2Y2XExESjeT+9NQoVFXZsPPnc9VYss2SpxdQ6vbatmt8/4+SN0oe0I1cPDABg9Q==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -5387,7 +5387,7 @@ packages:
       prettier-plugin-svelte:
         optional: true
     dependencies:
-      prettier: 3.2.5
+      prettier: 3.3.0
     dev: true
 
   /prettier@2.8.8:
@@ -5395,8 +5395,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  /prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+  /prettier@3.3.0:
+    resolution: {integrity: sha512-J9odKxERhCQ10OC2yb93583f6UnYutOeiV5i0zEDS7UGTdUt0u+y8erxl3lBKvwo/JHyyoEdXjwp4dke9oyZ/g==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -6294,8 +6294,8 @@ packages:
       typescript: 5.4.5
     dev: true
 
-  /turbo-stream@2.0.1:
-    resolution: {integrity: sha512-sm0ZtcX9YWh28p5X8t5McxC2uthrt9p+g0bGE0KTVFhnhNWefpSVCr+67zRNDUOfo4bpXwiOp7otO+dyQ7/y/A==}
+  /turbo-stream@2.1.0:
+    resolution: {integrity: sha512-muUMPf3BT7N6PeJJn91Wf+8oXEkwktNJZ9kBjIm0QzhFYPGJ7xqgQMblRQcscysb2v7VhY9AB+bOQbHaIUXyGA==}
     dev: false
 
   /type-check@0.4.0:
