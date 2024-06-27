@@ -22,7 +22,7 @@ dependencies:
     version: 2.8.1(typescript@5.5.2)
   '@vercel/remix':
     specifier: ^2.8.1
-    version: 2.9.2(@remix-run/dev@2.8.1)(@remix-run/node@2.8.1)(@remix-run/server-runtime@2.9.1)(react-dom@18.3.1)(react@18.3.1)
+    version: 2.10.0(@remix-run/dev@2.8.1)(@remix-run/node@2.8.1)(@remix-run/server-runtime@2.10.0)(react-dom@18.3.1)(react@18.3.1)
   blueimp-md5:
     specifier: 2.19.0
     version: 2.19.0
@@ -1252,8 +1252,8 @@ packages:
     resolution: {integrity: sha512-JUQb6sztqJpRbsdKpx3D4+6eaGmHU4Yb/QeKrES/ZbLuijlZMOmZ+gV0ohX5vrRDnJHJmcQPq3Tpk0GGPNM9gg==}
     engines: {node: '>=14.0.0'}
 
-  /@remix-run/router@1.16.0:
-    resolution: {integrity: sha512-Quz1KOffeEf/zwkCBM3kBtH4ZoZ+pT3xIXBG4PPW/XFtDP7EGhtTiC2+gpL9GnR7+Qdet5Oa6cYSvwKYg6kN9Q==}
+  /@remix-run/router@1.17.0:
+    resolution: {integrity: sha512-2D6XaHEVvkCn682XBnipbJjgZUU7xjLtA4dGJRBVUKpEaDYOZMENZoZjAOSb7qirxt5RupjzZxz4fK2FO+EFPw==}
     engines: {node: '>=14.0.0'}
     dev: false
 
@@ -1274,6 +1274,25 @@ packages:
       - supports-color
       - typescript
 
+  /@remix-run/server-runtime@2.10.0(typescript@5.5.2):
+    resolution: {integrity: sha512-lwgMq3m8U+oz0ZmgOrQeAE3tf6g1LPf2+ff3lgb5xb4bx7bV5VGGwKkzRK4+0fDguHXcW+YcppvdYdnKzQn1YQ==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      typescript: ^5.1.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@remix-run/router': 1.17.0
+      '@types/cookie': 0.6.0
+      '@web3-storage/multipart-parser': 1.0.0
+      cookie: 0.6.0
+      set-cookie-parser: 2.6.0
+      source-map: 0.7.4
+      turbo-stream: 2.2.0
+      typescript: 5.5.2
+    dev: false
+
   /@remix-run/server-runtime@2.8.1(typescript@5.5.2):
     resolution: {integrity: sha512-fh4SOEoONrN73Kvzc0gMDCmYpVRVbvoj9j3BUXHAcn0An8iX+HD/22gU7nTkIBzExM/F9xgEcwTewOnWqLw0Bg==}
     engines: {node: '>=18.0.0'}
@@ -1290,25 +1309,6 @@ packages:
       set-cookie-parser: 2.6.0
       source-map: 0.7.4
       typescript: 5.5.2
-
-  /@remix-run/server-runtime@2.9.1(typescript@5.5.2):
-    resolution: {integrity: sha512-6rRPiR+eMdTPkDojlYiZohVzXkD3+3X55ZvD78axMVocwGcDFFllpmgH9NSR2RKHW9eZDZUfKvNCwd/i9W6Xog==}
-    engines: {node: '>=18.0.0'}
-    peerDependencies:
-      typescript: ^5.1.0
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@remix-run/router': 1.16.0
-      '@types/cookie': 0.6.0
-      '@web3-storage/multipart-parser': 1.0.0
-      cookie: 0.6.0
-      set-cookie-parser: 2.6.0
-      source-map: 0.7.4
-      turbo-stream: 2.2.0
-      typescript: 5.5.2
-    dev: false
 
   /@remix-run/web-blob@3.1.0:
     resolution: {integrity: sha512-owGzFLbqPH9PlKb8KvpNJ0NO74HWE2euAn61eEiyCXX/oteoVzTVSN8mpLgDjaxBf2btj5/nUllSUgpyd6IH6g==}
@@ -1879,19 +1879,19 @@ packages:
   /@vanilla-extract/private@1.0.5:
     resolution: {integrity: sha512-6YXeOEKYTA3UV+RC8DeAjFk+/okoNz/h88R+McnzA2zpaVqTR/Ep+vszkWYlGBcMNO7vEkqbq5nT/JMMvhi+tw==}
 
-  /@vercel/remix@2.9.2(@remix-run/dev@2.8.1)(@remix-run/node@2.8.1)(@remix-run/server-runtime@2.9.1)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-3aTvWCS5U4bAkokhEVndcm9FyFv0/pW49b4qvcXIUyMi+vMNH4KTgPUbfeBDDtG7MLKFiQAYPUVr6rzc5ZtWkg==}
+  /@vercel/remix@2.10.0(@remix-run/dev@2.8.1)(@remix-run/node@2.8.1)(@remix-run/server-runtime@2.10.0)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-RNxHw7Brj6z0idUJQwvPjIBdB1QrLllMl6bqAQ/CHZ7Hg20SgK1hb/U5QM8JLSQ4+xfDAnsnMjPHjWH9DG+1+w==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      '@remix-run/dev': 2.9.1
-      '@remix-run/node': 2.9.1
-      '@remix-run/server-runtime': 2.9.1
+      '@remix-run/dev': 2.10.0
+      '@remix-run/node': 2.10.0
+      '@remix-run/server-runtime': 2.10.0
       react: '*'
       react-dom: '*'
     dependencies:
       '@remix-run/dev': 2.8.1(@remix-run/serve@2.8.1)(typescript@5.5.2)(vite@5.3.2)
       '@remix-run/node': 2.8.1(typescript@5.5.2)
-      '@remix-run/server-runtime': 2.9.1(typescript@5.5.2)
+      '@remix-run/server-runtime': 2.10.0(typescript@5.5.2)
       '@vercel/static-config': 3.0.0
       isbot: 3.8.0
       react: 18.3.1
