@@ -7,7 +7,7 @@
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
-    "format:write": "prettier --write .",
+    "format": "prettier --write .",
     "lint": "concurrently pnpm:lint:*",
     "lint:eslint": "eslint . --ext ts,tsx --max-warnings 0",
     "lint:format": "prettier --check .",

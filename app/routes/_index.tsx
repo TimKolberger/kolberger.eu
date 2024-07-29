@@ -19,10 +19,10 @@ export default function Index() {
           <h2 className="font-heading text-5xl font-bold md:text-7xl">
             Tim Kolberger
           </h2>
-          <p className="font-heading  text-2xl text-gray-200">
+          <p className="font-heading text-2xl text-gray-200">
             Maintainer & DevOps Engineer
           </p>
-          <p className=" max-w-60ch mx-auto pt-4">
+          <p className="max-w-60ch mx-auto pt-4">
             Working on design systems and component libraries to make the web
             accessible and delightful for everyone.
           </p>
