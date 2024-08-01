@@ -22,7 +22,7 @@ dependencies:
     version: 2.8.1(typescript@5.5.4)
   '@vercel/remix':
     specifier: ^2.8.1
-    version: 2.10.3(@remix-run/dev@2.8.1)(@remix-run/node@2.8.1)(@remix-run/server-runtime@2.10.3)(react-dom@18.3.1)(react@18.3.1)
+    version: 2.11.0(@remix-run/dev@2.8.1)(@remix-run/node@2.8.1)(@remix-run/server-runtime@2.11.0)(react-dom@18.3.1)(react@18.3.1)
   blueimp-md5:
     specifier: 2.19.0
     version: 2.19.0
@@ -63,7 +63,7 @@ devDependencies:
     version: 8.0.0(eslint@8.57.0)(typescript@5.5.4)
   autoprefixer:
     specifier: 10.4.19
-    version: 10.4.19(postcss@8.4.39)
+    version: 10.4.19(postcss@8.4.40)
   concurrently:
     specifier: 8.2.2
     version: 8.2.2
@@ -1252,8 +1252,8 @@ packages:
     resolution: {integrity: sha512-JUQb6sztqJpRbsdKpx3D4+6eaGmHU4Yb/QeKrES/ZbLuijlZMOmZ+gV0ohX5vrRDnJHJmcQPq3Tpk0GGPNM9gg==}
     engines: {node: '>=14.0.0'}
 
-  /@remix-run/router@1.18.0:
-    resolution: {integrity: sha512-L3jkqmqoSVBVKHfpGZmLrex0lxR5SucGA0sUfFzGctehw+S/ggL9L/0NnC5mw6P8HUWpFZ3nQw3cRApjjWx9Sw==}
+  /@remix-run/router@1.19.0:
+    resolution: {integrity: sha512-zDICCLKEwbVYTS6TjYaWtHXxkdoUvD/QXvyVZjGCsWz5vyH7aFeONlPffPdW+Y/t6KT0MgXb2Mfjun9YpWN1dA==}
     engines: {node: '>=14.0.0'}
     dev: false
 
@@ -1274,8 +1274,8 @@ packages:
       - supports-color
       - typescript
 
-  /@remix-run/server-runtime@2.10.3(typescript@5.5.4):
-    resolution: {integrity: sha512-vUl5jONUI6Lj0ICg9FSRFhoPzQdZ/7dpT1m7ID13DF5BEeF3t/9uCJS61XXWgQ/JEu7YRiwvZiwSRTrgM7zeWw==}
+  /@remix-run/server-runtime@2.11.0(typescript@5.5.4):
+    resolution: {integrity: sha512-9fU4Nyvplge6dlyTl90qvAq8fiWWZ922xtJUIWAkFpSOGIcIUIdlqUVSpfsYU6l2e6JQcKr8C14LfjgciBUX+A==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: ^5.1.0
@@ -1283,11 +1283,11 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@remix-run/router': 1.18.0
+      '@remix-run/router': 1.19.0
       '@types/cookie': 0.6.0
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.6.0
-      set-cookie-parser: 2.6.0
+      set-cookie-parser: 2.7.0
       source-map: 0.7.4
       turbo-stream: 2.2.0
       typescript: 5.5.4
@@ -1878,19 +1878,19 @@ packages:
   /@vanilla-extract/private@1.0.5:
     resolution: {integrity: sha512-6YXeOEKYTA3UV+RC8DeAjFk+/okoNz/h88R+McnzA2zpaVqTR/Ep+vszkWYlGBcMNO7vEkqbq5nT/JMMvhi+tw==}
 
-  /@vercel/remix@2.10.3(@remix-run/dev@2.8.1)(@remix-run/node@2.8.1)(@remix-run/server-runtime@2.10.3)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-ALNSbCNODp6Q3eKxYcqr3FJRJWIXa530+3EMm4+jJgeDt7cXYpj1Hq8esrAmky5vzPXtMjSL+NtDWfKcZKQEig==}
+  /@vercel/remix@2.11.0(@remix-run/dev@2.8.1)(@remix-run/node@2.8.1)(@remix-run/server-runtime@2.11.0)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-KHJlF3Fol3QNgCHQljjKCqhGkvSu/4+SNLCEp15oUdUJgNwfHKnBq3hYEYjMNkhNdpEv4XdCHS1J29/3sFp62A==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      '@remix-run/dev': 2.10.3
-      '@remix-run/node': ''
-      '@remix-run/server-runtime': 2.10.3
+      '@remix-run/dev': 2.11.0
+      '@remix-run/node': 2.11.0
+      '@remix-run/server-runtime': 2.11.0
       react: '*'
       react-dom: '*'
     dependencies:
       '@remix-run/dev': 2.8.1(@remix-run/serve@2.8.1)(typescript@5.5.4)(vite@5.3.5)
       '@remix-run/node': 2.8.1(typescript@5.5.4)
-      '@remix-run/server-runtime': 2.10.3(typescript@5.5.4)
+      '@remix-run/server-runtime': 2.11.0(typescript@5.5.4)
       '@vercel/static-config': 3.0.0
       isbot: 3.8.0
       react: 18.3.1
@@ -2121,7 +2121,7 @@ packages:
     resolution: {integrity: sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==}
     hasBin: true
 
-  /autoprefixer@10.4.19(postcss@8.4.39):
+  /autoprefixer@10.4.19(postcss@8.4.40):
     resolution: {integrity: sha512-BaENR2+zBZ8xXhM4pUaKUxlVdxZ0EZhjvbopwnXmxRUfqDmwSpC2lAi/QXvx7NRdPCo1WKEcEF6mV64si1z4Ew==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -2133,7 +2133,7 @@ packages:
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
-      postcss: 8.4.39
+      postcss: 8.4.40
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -5370,6 +5370,15 @@ packages:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
+  /postcss@8.4.40:
+    resolution: {integrity: sha512-YF2kKIUzAofPMpfH6hOi2cGnv/HrUlfucspc7pDyvv7kGdqXrfj8SCl/t8owkEgKEuu8ZcRjSOxFxVLqwChZ2Q==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.1
+      source-map-js: 1.2.0
+    dev: true
+
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -5886,6 +5895,10 @@ packages:
 
   /set-cookie-parser@2.6.0:
     resolution: {integrity: sha512-RVnVQxTXuerk653XfuliOxBP81Sf0+qfQE73LIYKcyMYHG94AuH0kgrQpRDuTZnSmjpysHmzxJXKNfa6PjFhyQ==}
+
+  /set-cookie-parser@2.7.0:
+    resolution: {integrity: sha512-lXLOiqpkUumhRdFF3k1osNXCy9akgx/dyPZ5p8qAg9seJzXr5ZrlqZuWIMuY6ejOsVLE6flJ5/h3lsn57fQ/PQ==}
+    dev: false
 
   /set-function-length@1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
