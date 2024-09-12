@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@fontsource/comfortaa':
-    specifier: 5.0.22
-    version: 5.0.22
+    specifier: 5.1.0
+    version: 5.1.0
   '@fontsource/open-sans':
-    specifier: 5.0.30
-    version: 5.0.30
+    specifier: 5.1.0
+    version: 5.1.0
   '@remix-run/node':
     specifier: 2.12.0
     version: 2.12.0(typescript@5.6.2)
@@ -869,12 +869,12 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/comfortaa@5.0.22:
-    resolution: {integrity: sha512-Y/6yqXeXVYumdS8FoDCtM1eGZOCmDfUtZWy9izf2NsJuj/fcvIiSiJuyM34248bw/0EI1PfzF3lJDIX8+0xauQ==}
+  /@fontsource/comfortaa@5.1.0:
+    resolution: {integrity: sha512-b04Idn1lDOU9ZTxTb2xfbecJ9rcDf3PCWmk/P2K9W/7Db63AIZyQUhZza+k1xdllf4cGNIclJrDFgQJo6rIqMw==}
     dev: false
 
-  /@fontsource/open-sans@5.0.30:
-    resolution: {integrity: sha512-u5Siu6un1R0Q5UZ9lr56YujMe5xjXWoJm3qJUiEKk6IMKqOkedT/NsbAgIQtaqJL1jMZbpCVXGVCd97ahQYeKQ==}
+  /@fontsource/open-sans@5.1.0:
+    resolution: {integrity: sha512-g+mjF8gWUDwck9DrRCkhmFeEj7fskjtKZJKAQguVzSg93lc6ThakTHMRgs0dZfe5qBbktrV839tDrb4bIDyZSA==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
