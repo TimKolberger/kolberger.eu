@@ -29,12 +29,9 @@
   "devDependencies": {
     "@react-router/dev": "7.0.2",
     "@react-router/fs-routes": "7.0.2",
-    "@remix-run/eslint-config": "2.15.0",
     "@types/blueimp-md5": "2.18.2",
     "@types/react": "19.0.1",
     "@types/react-dom": "19.0.1",
-    "@typescript-eslint/eslint-plugin": "8.17.0",
-    "@typescript-eslint/parser": "8.17.0",
     "autoprefixer": "10.4.20",
     "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "0.6.9",
