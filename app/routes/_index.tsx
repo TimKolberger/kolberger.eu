@@ -2,7 +2,7 @@ import type { MetaFunction } from 'react-router'
 import { Page } from '../../feature/layout/Page'
 import { Link } from '../../feature/layout/Link'
 import { Layout } from '../../feature/layout/Layout'
-import { IconMail, IconXTwitter } from '../../feature/icons/icons'
+import { IconMail, IconXTwitter, IconBluesky } from '../../feature/icons/icons'
 
 export const meta: MetaFunction = () => {
   return [
@@ -27,13 +27,17 @@ export default function Index() {
             accessible and delightful for everyone.
           </p>
           <footer className="mt-4 flex flex-wrap gap-6">
+            <Link href="https://bsky.app/profile/hakunamatim.bsky.social">
+              <IconBluesky className="me-2" />
+              <span className="sr-only">Bluesky</span>
+            </Link>
             <Link href="https://twitter.com/TimKolberger">
               <IconXTwitter className="me-2" />
               <span className="sr-only">X formerly Twitter</span>
             </Link>
             <Link href="mailto:hello@kolberger.eu">
               <IconMail className="me-2" />
-              <span>E-mail</span>
+              <span className="sr-only">E-mail</span>
             </Link>
           </footer>
         </section>
