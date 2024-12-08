@@ -1,13 +1,13 @@
 import { clsx } from 'clsx'
 import { type ComponentPropsWithoutRef, forwardRef } from 'react'
 import {
-  Link as RemixLink,
-  type LinkProps as RemixLinkProps,
+  Link as ReactRouterLink,
+  type LinkProps as ReactRouterLinkProps,
   useLocation,
-} from '@remix-run/react'
+} from 'react-router'
 
 export type LinkProps = ComponentPropsWithoutRef<'a'> &
-  Omit<RemixLinkProps, 'to'> & { href: string }
+  Omit<ReactRouterLinkProps, 'to'> & { href: string }
 
 export const Link = forwardRef<HTMLAnchorElement, LinkProps>(
   function Link(props, ref) {
@@ -19,7 +19,7 @@ export const Link = forwardRef<HTMLAnchorElement, LinkProps>(
 
     const isCurrent = location.pathname === href
     return (
-      <RemixLink
+      <ReactRouterLink
         ref={ref}
         to={href}
         {...restProps}

@@ -1,4 +1,4 @@
-import type { MetaFunction } from '@remix-run/node'
+import type { MetaFunction } from 'react-router'
 import { Page } from '../../feature/layout/Page'
 import { Link } from '../../feature/layout/Link'
 import { Layout } from '../../feature/layout/Layout'

@@ -8,3 +8,5 @@ tsconfig.tsbuildinfo
 
 .idea
 .vscode
+
+.react-router/

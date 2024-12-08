@@ -5,31 +5,30 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix vite:build",
-    "dev": "remix vite:dev",
+    "build": "react-router build",
+    "dev": "react-router dev",
     "format": "prettier --write .",
     "lint": "pnpm run \"/lint:/\"",
-    "lint:eslint": "eslint . --ext ts,tsx --max-warnings 0",
     "lint:format": "prettier --check .",
     "lint:types": "tsc --noEmit",
-    "start": "remix-serve ./build/server/index.js",
-    "typecheck": "tsc"
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
     "@fontsource/comfortaa": "5.1.0",
     "@fontsource/open-sans": "5.1.0",
-    "@remix-run/node": "2.15.0",
-    "@remix-run/react": "2.15.0",
-    "@remix-run/serve": "2.15.0",
-    "@vercel/remix": "2.15.0",
+    "@react-router/node": "7.0.2",
+    "@react-router/serve": "7.0.2",
     "blueimp-md5": "2.19.0",
     "clsx": "2.1.1",
     "isbot": "5.1.17",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "react-router": "7.0.2"
   },
   "devDependencies": {
-    "@remix-run/dev": "2.15.0",
+    "@react-router/dev": "7.0.2",
+    "@react-router/fs-routes": "7.0.2",
     "@remix-run/eslint-config": "2.15.0",
     "@types/blueimp-md5": "2.18.2",
     "@types/react": "19.0.1",
@@ -37,8 +36,6 @@
     "@typescript-eslint/eslint-plugin": "8.17.0",
     "@typescript-eslint/parser": "8.17.0",
     "autoprefixer": "10.4.20",
-    "eslint": "8.57.1",
-    "eslint-plugin-react": "7.37.2",
     "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "0.6.9",
     "tailwindcss": "3.4.16",
@@ -46,10 +43,9 @@
     "vite": "6.0.3"
   },
   "engines": {
-    "node": ">=18.0.0",
-    "pnpm": "<9"
+    "node": ">=22.0.0"
   },
-  "packageManager": "pnpm@8.15.9",
+  "packageManager": "pnpm@9.15.9",
   "prettier": {
     "semi": false,
     "singleQuote": true,

@@ -1,6 +1,6 @@
 import { Layout } from '../../feature/layout/Layout'
 import { Page } from '../../feature/layout/Page'
-import type { MetaFunction } from '@remix-run/node'
+import type { MetaFunction } from 'react-router'
 import { Garden } from '../../feature/garden/Garden.tsx'
 
 export const meta: MetaFunction = () => {
