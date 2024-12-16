@@ -21,7 +21,7 @@
     "@react-router/serve": "7.0.2",
     "blueimp-md5": "2.19.0",
     "clsx": "2.1.1",
-    "isbot": "5.1.17",
+    "isbot": "5.1.18",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-router": "7.0.2"
