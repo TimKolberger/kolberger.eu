@@ -18,7 +18,7 @@ export const Gravatar = ({ email, ...restProps }: GravatarProps) => {
       alt={email}
       width={40}
       height={40}
-      className="rounded-full border-2 border-gray-200 shadow-sm"
+      className="rounded-full border-2 border-gray-200 shadow-xs"
       {...restProps}
     />
   )

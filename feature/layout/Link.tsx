@@ -26,7 +26,7 @@ export const Link = forwardRef<HTMLAnchorElement, LinkProps>(
         {...externalLinkProps}
         aria-current={isCurrent ? 'page' : undefined}
         className={clsx(
-          'cursor-pointer break-all transition hover:text-gray-50 focus:outline-none focus-visible:underline',
+          'cursor-pointer break-all transition hover:text-gray-50 focus:outline-hidden focus-visible:underline',
           isCurrent
             ? 'underline'
             : !props.className?.includes('underline') && 'no-underline',
