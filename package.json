@@ -31,7 +31,7 @@
     "@react-router/fs-routes": "7.1.5",
     "@tailwindcss/vite": "4.0.6",
     "@types/blueimp-md5": "2.18.2",
-    "@types/react": "19.0.8",
+    "@types/react": "19.0.9",
     "@types/react-dom": "19.0.3",
     "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "0.6.11",
