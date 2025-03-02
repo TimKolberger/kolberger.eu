@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@fontsource/comfortaa':
-        specifier: 5.2.0
-        version: 5.2.0
+        specifier: 5.2.5
+        version: 5.2.5
       '@fontsource/open-sans':
-        specifier: 5.2.0
-        version: 5.2.0
+        specifier: 5.2.5
+        version: 5.2.5
       '@react-router/node':
         specifier: 7.2.0
         version: 7.2.0(react-router@7.2.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.8.2)
@@ -360,11 +360,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/comfortaa@5.2.0':
-    resolution: {integrity: sha512-tiGEkRE2nS77wwjZ6XG6i7CWNtMZPyH7js9F2EVnKZxq9sUSLxVjwGXf1ae/Kd3OL0jP4WG1wbgD5krf9Z75ZA==}
+  '@fontsource/comfortaa@5.2.5':
+    resolution: {integrity: sha512-qpaTCLLabFwdBIwhGEDQNrhXIDOQ0ogk6l3ZJB4FUo77/3KdeRpqrXaPznW2x9o7oIo0l02oRl2ljSM+dpKOUg==}
 
-  '@fontsource/open-sans@5.2.0':
-    resolution: {integrity: sha512-VBulRIELfeXCZknVvU5XXdBnG7G3RalD4Sp5+6Llk6Uzm8xa1Fct9kI8F0d7ROjtg2bB7gY4zjhc/DQwSXETmQ==}
+  '@fontsource/open-sans@5.2.5':
+    resolution: {integrity: sha512-f0Ww6H+LB6GXA8UCgqs90h4djVttu3quH/1+wkfUY8b09mG1ESn4ACRBHYY78bsoeDXpaCyZh7eoGROBWplvAQ==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -1937,9 +1937,9 @@ snapshots:
   '@esbuild/win32-x64@0.25.0':
     optional: true
 
-  '@fontsource/comfortaa@5.2.0': {}
+  '@fontsource/comfortaa@5.2.5': {}
 
-  '@fontsource/open-sans@5.2.0': {}
+  '@fontsource/open-sans@5.2.5': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
