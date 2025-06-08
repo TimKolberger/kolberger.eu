@@ -15,8 +15,8 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@fontsource/comfortaa": "5.2.5",
-    "@fontsource/open-sans": "5.2.5",
+    "@fontsource/comfortaa": "5.2.6",
+    "@fontsource/open-sans": "5.2.6",
     "@react-router/node": "7.6.2",
     "@react-router/serve": "7.6.2",
     "blueimp-md5": "2.19.0",
