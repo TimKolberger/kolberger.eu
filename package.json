@@ -15,8 +15,8 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@fontsource/comfortaa": "5.2.5",
-    "@fontsource/open-sans": "5.2.5",
+    "@fontsource/comfortaa": "5.2.6",
+    "@fontsource/open-sans": "5.2.6",
     "@react-router/node": "7.6.2",
     "@react-router/serve": "7.6.2",
     "blueimp-md5": "2.19.0",
@@ -29,20 +29,20 @@
   "devDependencies": {
     "@react-router/dev": "7.6.2",
     "@react-router/fs-routes": "7.6.2",
-    "@tailwindcss/vite": "4.1.8",
+    "@tailwindcss/vite": "4.1.10",
     "@types/blueimp-md5": "2.18.2",
-    "@types/react": "19.1.6",
-    "@types/react-dom": "19.1.5",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
     "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "0.6.11",
-    "tailwindcss": "4.1.8",
+    "tailwindcss": "4.1.10",
     "typescript": "5.8.3",
     "vite": "6.3.5"
   },
   "engines": {
     "node": ">=22.0.0"
   },
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@10.12.1",
   "prettier": {
     "semi": false,
     "singleQuote": true,
