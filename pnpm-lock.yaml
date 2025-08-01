@@ -58,11 +58,11 @@ importers:
         specifier: 19.1.7
         version: 19.1.7(@types/react@19.1.9)
       prettier:
-        specifier: 3.4.2
-        version: 3.4.2
+        specifier: 3.6.2
+        version: 3.6.2
       prettier-plugin-tailwindcss:
         specifier: 0.6.11
-        version: 0.6.11(prettier@3.4.2)
+        version: 0.6.11(prettier@3.6.2)
       tailwindcss:
         specifier: 4.1.11
         version: 4.1.11
@@ -1314,11 +1314,6 @@ packages:
         optional: true
       prettier-plugin-svelte:
         optional: true
-
-  prettier@3.4.2:
-    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
-    engines: {node: '>=14'}
-    hasBin: true
 
   prettier@3.6.2:
     resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
@@ -2749,11 +2744,9 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-tailwindcss@0.6.11(prettier@3.4.2):
+  prettier-plugin-tailwindcss@0.6.11(prettier@3.6.2):
     dependencies:
-      prettier: 3.4.2
-
-  prettier@3.4.2: {}
+      prettier: 3.6.2
 
   prettier@3.6.2: {}
 
