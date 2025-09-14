@@ -15,7 +15,7 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@fontsource/comfortaa": "5.2.6",
+    "@fontsource/comfortaa": "5.2.7",
     "@fontsource/open-sans": "5.2.6",
     "@react-router/node": "7.8.2",
     "@react-router/serve": "7.8.2",
