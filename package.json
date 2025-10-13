@@ -32,7 +32,7 @@
     "@tailwindcss/vite": "4.1.14",
     "@types/blueimp-md5": "2.18.2",
     "@types/react": "19.2.2",
-    "@types/react-dom": "19.2.1",
+    "@types/react-dom": "19.2.2",
     "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "0.6.11",
     "tailwindcss": "4.1.14",
