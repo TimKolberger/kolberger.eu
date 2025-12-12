@@ -33,7 +33,7 @@
     "@types/blueimp-md5": "2.18.2",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
-    "prettier": "3.4.2",
+    "prettier": "3.7.4",
     "prettier-plugin-tailwindcss": "0.7.1",
     "tailwindcss": "4.1.18",
     "typescript": "5.9.3",
