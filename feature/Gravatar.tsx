@@ -1,8 +1,9 @@
 import * as React from 'react'
 import md5 from 'blueimp-md5'
 
-export interface GravatarProps
-  extends Partial<Omit<React.ComponentProps<'img'>, 'src'>> {
+export interface GravatarProps extends Partial<
+  Omit<React.ComponentProps<'img'>, 'src'>
+> {
   email: string
 }
 
