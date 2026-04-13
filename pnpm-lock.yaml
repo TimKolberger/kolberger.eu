@@ -27,8 +27,8 @@ importers:
         specifier: 2.1.1
         version: 2.1.1
       isbot:
-        specifier: 5.1.37
-        version: 5.1.37
+        specifier: 5.1.38
+        version: 5.1.38
       react:
         specifier: 19.2.5
         version: 19.2.5
@@ -1093,8 +1093,8 @@ packages:
     resolution: {integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==}
     engines: {node: '>= 0.10'}
 
-  isbot@5.1.37:
-    resolution: {integrity: sha512-5bcicX81xf6NlTEV8rWdg7Pk01LFizDetuYGHx6d/f6y3lR2/oo8IfxjzJqn1UdDEyCcwT9e7NRloj8DwCYujQ==}
+  isbot@5.1.38:
+    resolution: {integrity: sha512-Cus2702JamTNMEY4zTP+TShgq/3qzjvGcBC4XMOV45BLaxD4iUFENkqu7ZhFeSzwNsCSZLjnGlihDQznnpnEEA==}
     engines: {node: '>=18'}
 
   jiti@2.6.1:
@@ -1962,7 +1962,7 @@ snapshots:
       dedent: 1.7.2
       es-module-lexer: 1.7.0
       exit-hook: 2.2.1
-      isbot: 5.1.37
+      isbot: 5.1.38
       jsesc: 3.0.2
       lodash: 4.17.23
       p-map: 7.0.4
@@ -2551,7 +2551,7 @@ snapshots:
 
   ipaddr.js@1.9.1: {}
 
-  isbot@5.1.37: {}
+  isbot@5.1.38: {}
 
   jiti@2.6.1: {}
 
