@@ -17,18 +17,18 @@
   "dependencies": {
     "@fontsource/comfortaa": "5.2.8",
     "@fontsource/open-sans": "5.2.7",
-    "@react-router/node": "7.15.0",
-    "@react-router/serve": "7.15.0",
+    "@react-router/node": "7.15.1",
+    "@react-router/serve": "7.15.1",
     "blueimp-md5": "2.19.0",
     "clsx": "2.1.1",
     "isbot": "5.1.40",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "react-router": "7.15.0"
+    "react-router": "7.15.1"
   },
   "devDependencies": {
-    "@react-router/dev": "7.15.0",
-    "@react-router/fs-routes": "7.15.0",
+    "@react-router/dev": "7.15.1",
+    "@react-router/fs-routes": "7.15.1",
     "@tailwindcss/vite": "4.3.0",
     "@types/blueimp-md5": "2.18.2",
     "@types/react": "19.2.14",
