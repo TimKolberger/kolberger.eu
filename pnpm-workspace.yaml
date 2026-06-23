@@ -1,0 +1,5 @@
+minimumReleaseAge: 1440 # 1 days
+allowBuilds:
+  esbuild: false
+minimumReleaseAgeExclude:
+  - vite@8.1.0
