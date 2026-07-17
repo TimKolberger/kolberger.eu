@@ -29,13 +29,13 @@
   "devDependencies": {
     "@react-router/dev": "8.2.0",
     "@react-router/fs-routes": "8.2.0",
-    "@tailwindcss/vite": "4.3.2",
+    "@tailwindcss/vite": "4.3.3",
     "@types/blueimp-md5": "2.18.2",
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "prettier": "3.9.5",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "tailwindcss": "4.3.2",
+    "tailwindcss": "4.3.3",
     "typescript": "6.0.3",
     "vite": "8.1.5"
   },
