@@ -42,7 +42,7 @@
   "engines": {
     "node": ">=24.0.0"
   },
-  "packageManager": "pnpm@12.9.0",
+  "packageManager": "pnpm@12.9.1",
   "prettier": {
     "semi": false,
     "singleQuote": true,
